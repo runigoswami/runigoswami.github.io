@@ -126,7 +126,7 @@
 
 
     s.select('svg').attr({
-      preserveAspectRatio: "xMaxYMin"
+      preserveAspectRatio: "xMaxYMin meet"
     });
   });
 
