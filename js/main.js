@@ -9,7 +9,9 @@
 
   //FadeIn all sections
   $body.imagesLoaded(function() {
+    console.log('stuff');
     setTimeout(function() {
+      console.log('morestuff');
 
       // Resize sections
       adjustWindow();
