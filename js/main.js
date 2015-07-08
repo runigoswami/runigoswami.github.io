@@ -43,7 +43,7 @@
       winH = 450;
     }
 
-    // Resize our slides
+    // Resize our sections
     $slide.height(winH);
     var halfWindowHeight = winH - (winH / 2);
     var onethirdsHeight = (winH) / 3;
@@ -81,42 +81,42 @@
   // };
 
 
-  // var s = Snap('#runicloud_svg');
-  // Snap.load("img/svgs/runicloud.svg", function(f) {
-  //   // Note that we traversre and change attr before SVG
-  //   // is even added to the page
-  //   var thoughts = [
-  //     "#brain", "#soundcloud", "#deathly_hallows", "#paintbrush", "#om", "#skate", "#wave", "#tea",
-  //     "#mantis_shrimp", "#photos", "#tjhsst", "#play_buttons", "#oxytocin", "#dodecahedron", "#plane_ticket"
-  //   ];
-  //
-  //   s.append(f);
-  //   for (i = 0; i < thoughts.length; i++) {
-  //     // console.log(thoughts[i]+y);
-  //     var thought = thoughts[i];
-  //     s.select(thought + "_container").hover(
-  //       function(d) {
-  //         var sel = '#' + d.path[1].id.replace("_container", "");;
-  //         console.log(sel);
-  //         s.select(sel).attr({
-  //           fill: "#5acecf"
-  //         });
-  //       },
-  //       function(d) {
-  //         var sel = '#' + d.path[1].id.replace("_container", "");;
-  //         console.log(sel);
-  //         s.select(sel).attr({
-  //           fill: "#434343"
-  //         });
-  //       }
-  //     );
-  //   }
-  //
-  //
-  //   s.select('svg').attr({
-  //     preserveAspectRatio: "xMaxYMin meet"
-  //   });
-  // });
+  var s = Snap('#runicloud_svg');
+  Snap.load("img/svgs/runicloud.svg", function(f) {
+    // Note that we traversre and change attr before SVG
+    // is even added to the page
+    var thoughts = [
+      "#brain", "#soundcloud", "#deathly_hallows", "#paintbrush", "#om", "#skate", "#wave", "#tea",
+      "#mantis_shrimp", "#photos", "#tjhsst", "#play_buttons", "#oxytocin", "#dodecahedron", "#plane_ticket"
+    ];
+
+    s.append(f);
+    for (i = 0; i < thoughts.length; i++) {
+      // console.log(thoughts[i]+y);
+      var thought = thoughts[i];
+      s.select(thought + "_container").hover(
+        function(d) {
+          var sel = '#' + d.path[1].id.replace("_container", "");;
+          console.log(sel);
+          s.select(sel).attr({
+            fill: "#5acecf"
+          });
+        },
+        function(d) {
+          var sel = '#' + d.path[1].id.replace("_container", "");;
+          console.log(sel);
+          s.select(sel).attr({
+            fill: "#434343"
+          });
+        }
+      );
+    }
+
+
+    s.select('svg').attr({
+      preserveAspectRatio: "xMaxYMin meet"
+    });
+  });
 
 
 
