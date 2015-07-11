@@ -73,7 +73,6 @@ section {
 main {
   overflow-x: hidden;
 }
-
 .cover .baselayer {
   position: relative;
   background-position: center center;
@@ -221,9 +220,42 @@ main {
 /* Cover 2 */
 
 #cover-2 .baselayer {
-  background-image: url('../img/cover2_placeholder.png');
+  background-image: url('../img/cover2_layer0.jpg');
 }
-#cover-2 .covercontainer {}
+#cover-2 .covercontainer {
+  z-index: 80;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#cover-2 .frame {
+  background-image: url('../img/cover2_layer1.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: bottom;
+  display: block;
+  height: 100%;
+}
+#cover-2 .hathi_container {
+  /*display: block;*/
+  width: 100%;
+  height: 100%;
+  margin-left: 40%;
+  z-index: 120;
+  position: absolute;
+}
+#cover-2 .hathi {
+  background-image: url('../img/cover2_layer2.png');
+  background-position: center center;
+  background-origin: border-box;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 
 /* Cover 3 */
 

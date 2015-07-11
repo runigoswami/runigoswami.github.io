@@ -48,7 +48,7 @@
     var halfWindowHeight = winH - (winH / 2);
     var onethirdsHeight = (winH) / 3;
     $('#cover-1').height(2*onethirdsHeight);
-    $('#cover-2').height(2*onethirdsHeight);
+    // $('#cover-2').height(2*onethirdsHeight);
     // $('#cover-1 .covercontainer').height(twothirdsHeight);
     // $('#cover-1 .handscontainer').height(twothirdsHeight);
 
