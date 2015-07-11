@@ -220,7 +220,7 @@ main {
 /* Cover 2 */
 
 #cover-2 .baselayer {
-  background-image: url('../img/cover2_layer0.jpg');
+  background-image: url('../img/cover2_layer0_blurry.jpg');
 }
 #cover-2 .covercontainer {
   z-index: 80;
