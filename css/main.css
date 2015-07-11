@@ -238,7 +238,7 @@ main {
 }
 
 #cover-2 .curtain{
-  background-image: url('../img/YellowCurtain.png') ;
+  background-image: url('../img/YellowCurtain.jpg') ;
   /*background-origin: border-box;*/
   /*background-repeat: no-repeat;*/
   background-size: cover;
