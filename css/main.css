@@ -327,7 +327,7 @@ main {
   padding-top: 20px;
 }
 #content-0 .runicloud {
-  background-image: url('../img/svgs/runicloud.svg');
+  /*background-image: url('../img/svgs/runicloud.svg');*/
   /*background-position: center center;*/
   background-repeat: no-repeat;
   background-size: contain;
