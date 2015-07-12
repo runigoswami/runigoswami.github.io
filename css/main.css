@@ -44,7 +44,8 @@
       margin-top: 0px;
       z-index: 99999;
       position: absolute;
-      /*margin-left:65%;*/
+      float: right;
+      margin-left:60%;
     }
     #navi ul {
       list-style: none;
@@ -52,8 +53,8 @@
       padding: 0;
       line-height: 1;
       display: block;
-      position: relative;
       zoom: 1;
+      float: right;
     }
     #navi ul:after {
       content: " ";
