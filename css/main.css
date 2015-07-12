@@ -39,7 +39,7 @@
    ========================================================================== */
 
     #navbar {
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(0, 0, 0, 0.1);
       width: auto;
       margin-top: 0px;
       z-index: 99999;
@@ -91,7 +91,7 @@
       transition: color .25s;
     }
     #navbar ul li a:hover {
-      color: #444444;
+      color: #666666;
     }
     #navbar ul li a:hover:before {
       width: 100%;
