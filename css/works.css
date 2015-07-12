@@ -127,6 +127,38 @@ Navbar Styling
 #navi.align-right li:first-child a:after {
   display: none;
 }
+/* ==========================================================================
+Body Styling
+========================================================================== */
+
+body, html {
+  height: 100%;
+  min-height: 100%;
+  background-color: #000000;
+  font: 100%/1.5em 'CooperHewitt', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'CooperHewitt', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  margin-top: 0;
+}
+.no-js {
+  padding-top: 106px;
+}
+
+
+/* Placeholder*/
+.cover .placeholder {
+  position: relative;
+  background-image: url('../img/comingsoon.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
 
 /* ==========================================================================
 Print styles.

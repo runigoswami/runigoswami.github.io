@@ -195,7 +195,7 @@
     /* Cover 0*/
 
     #cover-0 .baselayer {
-      background-image: url('../img/cover0_layer0.jpg')
+      background-image: url('../img/cover0_layer0.jpg');
     }
     #cover-0 .covercontainer {
       /*z-index: 80;*/
