@@ -351,7 +351,6 @@
       background-image: url('../img/cover2_layer2.png');
       background-position: center center;
       background-origin: border-box;
-      background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: contain;
       display: block;
