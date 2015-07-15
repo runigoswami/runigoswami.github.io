@@ -105,7 +105,7 @@ Navbar Styling
   bottom: 0;
   height: 4px;
   width: 0;
-  background: #e45729;
+  background: #f57247;
   -webkit-transition: width .25s;
   -moz-transition: width .25s;
   -ms-transition: width .25s;
@@ -116,7 +116,7 @@ Navbar Styling
   display: none;
 }
 #navi ul li.active a {
-  color: #e45729;
+  color: #f57247;
 }
 #navi ul li.active a:before {
   width: 100%;
