@@ -148,16 +148,40 @@ h1, h2, h3 {
   padding-top: 106px;
 }
 
-
-/* Placeholder*/
-.cover .placeholder {
+.cover .baselayer {
   position: relative;
-  background-image: url('../img/comingsoon.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.content .baselayer {
+  position: relative;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
+}
+.covercontainer, .contentcontainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#works .baselayer {
+  background-image: url('../img/selectedworks_header.jpg');
+}
+#works .covercontainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#grid .baselayer {
+  background-color:#efefef;
 }
 
 /* ==========================================================================

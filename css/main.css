@@ -456,6 +456,7 @@
 
     #content-1 .baselayer {
       background-image: url('../img/content1_background.png');
+      /*background-color: #ffffff;*/
     }
     #content-1 .swingcontainer {
       z-index: 80;
