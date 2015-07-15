@@ -116,7 +116,7 @@ Navbar Styling
   display: none;
 }
 #navi ul li.active a {
-  color: #f57247;
+  color: #f7b19a;
 }
 #navi ul li.active a:before {
   width: 100%;
