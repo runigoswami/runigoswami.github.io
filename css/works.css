@@ -39,7 +39,7 @@ Navbar Styling
 ========================================================================== */
 
 #navi {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.4);
   width: auto;
   margin-top: 0px;
   z-index: 99999;
@@ -92,7 +92,7 @@ Navbar Styling
   transition: color .25s;
 }
 #navi ul li a:hover {
-  color: #666666;
+  color: #ffffff;
 }
 #navi ul li a:hover:before {
   width: 100%;
@@ -105,7 +105,7 @@ Navbar Styling
   bottom: 0;
   height: 4px;
   width: 0;
-  background: #5acecf;
+  background: #f7c235;
   -webkit-transition: width .25s;
   -moz-transition: width .25s;
   -ms-transition: width .25s;
@@ -116,7 +116,7 @@ Navbar Styling
   display: none;
 }
 #navi ul li.active a {
-  color: #5acecf;
+  color: #f7c235;
 }
 #navi ul li.active a:before {
   width: 100%;
