@@ -162,7 +162,7 @@ Navbar Styling
   }
   .button:hover {
     background-color: #34d47a;
-    text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+    /*text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);*/
     color: #ffffff;
   }
 
@@ -173,7 +173,7 @@ Navbar Styling
   }
   .button.is-checked {
     color: white;
-    /*text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);*/
+    text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
     border-color: transparent;
     outline: none;
   }
@@ -291,7 +291,7 @@ Body Styling
     background: rgba(90, 206, 207, .75);
     background-size: cover;
     text-align: center;
-    padding: 40vh 0 41vh 0;
+    padding: 40vh 0 40vh 0;
     opacity: 0;
     -webkit-transition: opacity .25s ease;
     -moz-transition: opacity .25s ease;
