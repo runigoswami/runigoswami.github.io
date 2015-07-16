@@ -309,11 +309,11 @@ Body Styling
     opacity: 1;
   }
   #text_overlay {
-    font-family: CooperHewitt-Semibold;
-    font-weight: 300;
+    font-family: CooperHewitt-Light;
+    font-weight: 100;
     display: table-cell;
     vertical-align: middle;
-    color: rgba(255, 255, 255, .85);
+    color: rgb(255, 255, 255);
     font-size: 24px;
   }
   .grid-item {
