@@ -55,17 +55,24 @@
     </section>
 
 
-
     <section id="bkgd" class="workscontent">
       <div class="contentcontainer">
+        <div class="button-group filters-button-group">
+          <button class="button" data-filter=".interactive">Interactive Pieces</button>
+          <button class="button" data-filter=".illustration">Illustrations</button>
+          <button class="button" data-filter=".visualization">Visualizations</button>
+          <button class="button" data-filter=".webapp">Applications</button>
+          <button class="button is-checked" data-filter="*">Clear</button>
+        </div>
+
         <div id="container" class="grid">
-          <div id="thumb_frameshift" class="space interactive grid-item">
+          <div id="thumb_frameshift" class="space interactive grid-item" data-category="interactive">
               <div id="overlay">
-                <span id="plus">FrameShift</span>
+                <span id="text_overlay">FrameShift</span>
               </div>
           </div>
-          <div id="thumb_berry" class="space interactive grid-item grid-item--height2"></div>
-          <div id="thumb_VCL" class="space webapp grid-item grid-item--height2"></div>
+          <div id="thumb_berry" class="space interactive grid-item grid-item--height2" data-category="interactive"></div>
+          <div id="thumb_VCL" class="space webapp grid-item grid-item--height2" data-category="webapp"></div>
         </div>
       </div>
     </section>
