@@ -132,7 +132,10 @@ Navbar Styling
   #navi.align-right li:first-child a:after {
     display: none;
   }
-  /* Filtration Bar Styling */
+
+  /* ==========================================================================
+ Filtration Bar Styling
+========================================================================== */
 
   #filtration_bar {
     background-color: rgba(255, 255, 255, 0.85);;
@@ -208,8 +211,7 @@ Navbar Styling
     height: 70px;
     z-index: 1;
   }
-  /*.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }*/
-  /*.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }*/
+
   /* ==========================================================================
 Body Styling
 ========================================================================== */
@@ -276,7 +278,7 @@ Body Styling
   /* ---- .grid-item ---- */
 
   .space {
-    margin: 3vw;
+    margin: 2.5vw;
   }
   #thumb_frameshift {
     background-image: url('../img/thumbs/thumb_1_frameshift.jpg');
@@ -289,6 +291,9 @@ Body Styling
   }
   #thumb_how {
     background-image: url('../img/thumbs/thumb_howwework.jpg');
+  }
+  #thumb_shoes {
+    background-image: url('../img/thumbs/thumb_shoes.jpg');
   }
   #overlay {
     background: rgba(90, 206, 207, .75);
@@ -320,14 +325,17 @@ Body Styling
   .grid-item--width2 {
     width: 30vw;
   }
-  .grid-item--width3 {
-    width: 30vw;
-  }
   .grid-item--height2 {
     height: 25vw;
   }
+  .grid-item--width3 {
+    width: 15vw;
+  }
   .grid-item--height3 {
-    height: 90vw;
+    height: 16vw;
+  }
+  .grid-item--height4 {
+    height: 20vw;
   }
   /* ==========================================================================
 Media Queries for Responsive Design.
