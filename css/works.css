@@ -109,7 +109,7 @@ Navbar Styling
     left: 0;
     bottom: 0;
     height: 4px;
-      width: 0;
+    width: 0;
     background: #f57247;
     -webkit-transition: width .25s;
     -moz-transition: width .25s;
@@ -132,13 +132,12 @@ Navbar Styling
   #navi.align-right li:first-child a:after {
     display: none;
   }
-
   /* ==========================================================================
  Filtration Bar Styling
 ========================================================================== */
 
   #filtration_bar {
-    background-color: rgba(255, 255, 255, 0.85);;
+    background-color: rgba(255, 255, 255, 0.85);
     display: block;
     width: 100%;
   }
@@ -168,7 +167,6 @@ Navbar Styling
     /*text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);*/
     color: #ffffff;
   }
-
   .button:active, .button.is-checked {
     background-color: #e9582b;
     border-color: transparent;
@@ -211,7 +209,6 @@ Navbar Styling
     height: 70px;
     z-index: 1;
   }
-
   /* ==========================================================================
 Body Styling
 ========================================================================== */
@@ -336,6 +333,18 @@ Body Styling
   }
   .grid-item--height4 {
     height: 20vw;
+  }
+  /* ==========================================================================
+ Footer Bar Styling
+========================================================================== */
+
+  .footer {
+    background-color: #ffffff;
+  }
+  #footernabber{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 100%;
   }
   /* ==========================================================================
 Media Queries for Responsive Design.
