@@ -1,170 +1,170 @@
 (function($) {
 
-    // Setup variables
-    $window = $(window);
-    $slide = $('.cover, .content');
-    $body = $('body');
+  // Setup variables
+  $window = $(window);
+  $slide = $('.cover, .content');
+  $body = $('body');
 
 
 
-    //FadeIn all sections
-    $body.imagesLoaded(function() {
-      console.log('stuff');
-      setTimeout(function() {
-        console.log('morestuff');
+  //FadeIn all sections
+  $body.imagesLoaded(function() {
+    console.log('stuff');
+    setTimeout(function() {
+      console.log('morestuff');
 
-        // Resize sections
-        adjustWindow();
+      // Resize sections
+      adjustWindow();
 
-        // Fade in sections
-        $body.removeClass('loading').addClass('loaded');
+      // Fade in sections
+      $body.removeClass('loading').addClass('loaded');
 
-      }, 1);
+    }, 1);
+  });
+
+
+  function adjustWindow() {
+
+    // Init Skrollr
+    var s = skrollr.init({
+      render: function(data) {
+        //Debugging - Log the current scroll position.
+        //console.log(data.curTop);
+      },
+      smoothScrolling: true
+
     });
 
 
-    function adjustWindow() {
-
-      // Init Skrollr
-      var s = skrollr.init({
-        render: function(data) {
-          //Debugging - Log the current scroll position.
-          //console.log(data.curTop);
-        },
-        smoothScrolling: true
-
-      });
-
-
-      // Get window size
-      winH = $window.height();
-      // Keep minimum height 550
-      if (winH <= 450) {
-        winH = 450;
-      }
-
-      // Resize our sections
-      $slide.height(winH);
-      var halfWindowHeight = winH - (winH / 2);
-      var onethirdsHeight = (winH) / 3;
-      $('#cover-1').height(2 * onethirdsHeight);
-      $('#works').height(.9 * winH);
-      // $('#cover-2').height(2*onethirdsHeight);
-      // $('#cover-1 .covercontainer').height(twothirdsHeight);
-      // $('#cover-1 .handscontainer').height(twothirdsHeight);
-
-      // Refresh Skrollr after resizing our sections
-      s.refresh($('.cover, .content'));
+    // Get window size
+    winH = $window.height();
+    // Keep minimum height 550
+    if (winH <= 450) {
+      winH = 450;
     }
 
-    causeRepaintsOn = $("h1, h2, h3, p");
+    // Resize our sections
+    $slide.height(winH);
+    var halfWindowHeight = winH - (winH / 2);
+    var onethirdsHeight = (winH) / 3;
+    $('#cover-1').height(2 * onethirdsHeight);
+    $('#works').height(.9 * winH);
+    // $('#cover-2').height(2*onethirdsHeight);
+    // $('#cover-1 .covercontainer').height(twothirdsHeight);
+    // $('#cover-1 .handscontainer').height(twothirdsHeight);
 
-    $(window).resize(function() {
-      causeRepaintsOn.css("z-index", 1);
-      adjustWindow();
+    // Refresh Skrollr after resizing our sections
+    s.refresh($('.cover, .content'));
+  }
+
+  causeRepaintsOn = $("h1, h2, h3, p");
+
+  $(window).resize(function() {
+    causeRepaintsOn.css("z-index", 1);
+    adjustWindow();
+  });
+  //
+  // function bbox(e) {
+  //   if (e && e.getBBox) {
+  //     var box = e.getBBox();
+  //     if (box.x && box.y && box.width && box.height) {
+  //       var rect = box.path;
+  //
+  //       // rect.setAttributeNS(null, 'fill', 'rgba(0,0,0,0)');
+  //       // rect.setAttributeNS(null, 'stroke', 'rgba(0,0,0,0)');
+  //       // rect.setAttributeNS(null, 'transform', transform);
+  //       e.append(rect);
+  //       console.log(rect);
+  //       return rect;
+  //     }
+  //   }
+  //   return null;
+  // };
+
+
+  var s = Snap('#runicloud_svg');
+  Snap.load("img/svgs/runicloud.svg", function(f) {
+    // Note that we traversre and change attr before SVG
+    // is even added to the page
+    var thoughts = [
+      "#brain", "#soundcloud", "#deathly_hallows", "#paintbrush", "#om", "#skate", "#wave", "#tea",
+      "#mantis_shrimp", "#photos", "#tjhsst", "#play_buttons", "#oxytocin", "#dodecahedron", "#plane_ticket"
+    ];
+
+    s.append(f);
+    for (i = 0; i < thoughts.length; i++) {
+      // console.log(thoughts[i]+y);
+      var thought = thoughts[i];
+      s.select(thought + "_container").hover(
+        function(d) {
+          var sel = '#' + d.path[1].id.replace("_container", "");;
+          console.log(sel);
+          s.select(sel).attr({
+            fill: "#5acecf"
+          });
+        },
+        function(d) {
+          var sel = '#' + d.path[1].id.replace("_container", "");;
+          console.log(sel);
+          s.select(sel).attr({
+            fill: "#434343"
+          });
+        }
+      );
+    }
+
+
+    s.select('svg').attr({
+      preserveAspectRatio: "xMaxYMin meet"
     });
-    //
-    // function bbox(e) {
-    //   if (e && e.getBBox) {
-    //     var box = e.getBBox();
-    //     if (box.x && box.y && box.width && box.height) {
-    //       var rect = box.path;
-    //
-    //       // rect.setAttributeNS(null, 'fill', 'rgba(0,0,0,0)');
-    //       // rect.setAttributeNS(null, 'stroke', 'rgba(0,0,0,0)');
-    //       // rect.setAttributeNS(null, 'transform', transform);
-    //       e.append(rect);
-    //       console.log(rect);
-    //       return rect;
-    //     }
-    //   }
-    //   return null;
-    // };
+  });
 
 
-    var s = Snap('#runicloud_svg');
-    Snap.load("img/svgs/runicloud.svg", function(f) {
-      // Note that we traversre and change attr before SVG
-      // is even added to the page
-      var thoughts = [
-        "#brain", "#soundcloud", "#deathly_hallows", "#paintbrush", "#om", "#skate", "#wave", "#tea",
-        "#mantis_shrimp", "#photos", "#tjhsst", "#play_buttons", "#oxytocin", "#dodecahedron", "#plane_ticket"
-      ];
+  $(document).ready(function() {
 
-      s.append(f);
-      for (i = 0; i < thoughts.length; i++) {
-        // console.log(thoughts[i]+y);
-        var thought = thoughts[i];
-        s.select(thought + "_container").hover(
-          function(d) {
-            var sel = '#' + d.path[1].id.replace("_container", "");;
-            console.log(sel);
-            s.select(sel).attr({
-              fill: "#5acecf"
-            });
-          },
-          function(d) {
-            var sel = '#' + d.path[1].id.replace("_container", "");;
-            console.log(sel);
-            s.select(sel).attr({
-              fill: "#434343"
-            });
-          }
-        );
+    // $(function() {
+    //     // init Isotope
+    //     var $grid = $('.grid').isotope({});
+    //   });
+
+    var $container = $('#container')
+      // initialize Isotope
+    $container.isotope({
+      // options...
+      resizable: false, // disable normal resizing
+      // set columnWidth to a percentage of container width
+      masonry: {
+        columnWidth: $container.width() / 10
       }
-
-
-      s.select('svg').attr({
-        preserveAspectRatio: "xMaxYMin meet"
+    });
+    // bind filter button click
+    $('.filters-button-group').on('click', 'button', function() {
+      var filterValue = $(this).attr('data-filter');
+      // use filterFn if matches value
+      // filterValue = filterFns[filterValue] || filterValue;
+      $container.isotope({
+        filter: filterValue
+      });
+    });
+    // change is-checked class on buttons
+    $('.button-group').each(function(i, buttonGroup) {
+      var $buttonGroup = $(buttonGroup);
+      $buttonGroup.on('click', 'button', function() {
+        $buttonGroup.find('.is-checked').removeClass('is-checked');
+        $(this).addClass('is-checked');
       });
     });
 
 
-    $(document).ready(function() {
+    // update columnWidth on window resize
+    $(window).resize(function() {
+      $container.isotope({
+        // update columnWidth to a percentage of container width
+        masonry: {
+          columnWidth: $container.width() / 10
+        }
+      });
+    });
+  });
 
-        $(function() {
-            // init Isotope
-            var $grid = $('.grid').isotope({});
-          });
-          // bind filter button click
-          $('.filters-button-group').on('click', 'button', function() {
-            var filterValue = $(this).attr('data-filter');
-            // use filterFn if matches value
-            // filterValue = filterFns[filterValue] || filterValue;
-            $grid.isotope({
-              filter: filterValue
-            });
-          });
-          // change is-checked class on buttons
-          $('.button-group').each(function(i, buttonGroup) {
-            var $buttonGroup = $(buttonGroup);
-            $buttonGroup.on('click', 'button', function() {
-              $buttonGroup.find('.is-checked').removeClass('is-checked');
-              $(this).addClass('is-checked');
-            });
-          });
-
-
-          var $container = $('#container')
-            // initialize Isotope
-          $container.isotope({
-            // options...
-            resizable: false, // disable normal resizing
-            // set columnWidth to a percentage of container width
-            masonry: {
-              columnWidth: $container.width() / 10
-            }
-          });
-
-          // update columnWidth on window resize
-          $(window).resize(function() {
-            $container.isotope({
-              // update columnWidth to a percentage of container width
-              masonry: {
-                columnWidth: $container.width() / 10
-              }
-            });
-          });
-        });
-
-    })(jQuery);
+})(jQuery);
