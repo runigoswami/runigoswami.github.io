@@ -163,6 +163,7 @@ h1, h2, h3 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
   height: 100%;
   width: 100%;
 }
@@ -191,21 +192,8 @@ h1, h2, h3 {
 #bkgd .contentcontainer {
   background-color: #ffffff;
 }
-/* Filters bar*/
-
-
-
-
-
-
-
-
-/* ---- grid ---- */
-
-.grid {}
 
 /* clear fix */
-
 .grid:after {
   content: '';
   display: block;
@@ -213,7 +201,6 @@ h1, h2, h3 {
 }
 
 /* ---- .grid-item ---- */
-
 .space {
   margin: 3vw;
 }
@@ -298,6 +285,12 @@ h1, h2, h3 {
 .button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
 .button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
 
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 100px; 
+	z-index: 1;
+}
 
 .grid-item {
   float: left;

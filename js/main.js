@@ -120,12 +120,19 @@
   });
 
 
-  $(document).ready(function() {
+  $(document).ready(function(){
+    $(window).bind('scroll', function() {
+    var navHeight = $( window ).height() - 100;
+      if ($(window).scrollTop() > navHeight) {
+        $('.button-group').addClass('fixed');
+      }
+      else {
+        $('.button-group').removeClass('fixed');
+      }
+   });
+ });
 
-    // $(function() {
-    //     // init Isotope
-    //     var $grid = $('.grid').isotope({});
-    //   });
+  $(document).ready(function() {
 
     var $container = $('#container')
       // initialize Isotope
