@@ -135,15 +135,16 @@ Navbar Styling
   /* Filtration Bar Styling */
 
   #filtration_bar {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.5);;
     display: block;
     width: 100%;
   }
   .button {
     border-color: transparent;
+    background-color: transparent;
     display: inline-block;
     text-align: center;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     color: #292929;
     text-decoration: none;
     display: block;
@@ -160,13 +161,13 @@ Navbar Styling
     transition: color .25s;
   }
   .button:hover {
-    background-color: #8CF;
+    background-color: #34d47a;
     text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
     color: #222;
   }
 
   .button:active, .button.is-checked {
-    background-color: #f57247;
+    background-color: #e9582b;
     border-color: transparent;
     outline: none;
   }
@@ -204,7 +205,7 @@ Navbar Styling
     position: fixed;
     text-align: center;
     top: 0;
-    height: 50px;
+    height: 9vh;
     z-index: 1;
   }
   /*.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }*/
