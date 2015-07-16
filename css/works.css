@@ -191,6 +191,14 @@ h1, h2, h3 {
 #bkgd .contentcontainer {
   background-color: #ffffff;
 }
+/* Filters bar*/
+
+
+
+
+
+
+
 
 /* ---- grid ---- */
 
@@ -222,7 +230,7 @@ h1, h2, h3 {
   background: rgba(90, 206, 207, .75);
   background-size: cover;
   text-align: center;
-  padding: 38vh 0 39vh 0;
+  padding: 38vh 0 38vh 0;
   opacity: 0;
   -webkit-transition: opacity .25s ease;
   -moz-transition: opacity .25s ease;
@@ -234,7 +242,7 @@ h1, h2, h3 {
   font-family: CooperHewitt-Light;
   font-weight: 100;
   color: rgba(255, 255, 255, .85);
-  font-size: 48px;
+  font-size: 36px;
 }
 .grid-item {
   float: left;
