@@ -163,7 +163,7 @@ Navbar Styling
   .button:hover {
     background-color: #34d47a;
     text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
-    color: #222;
+    color: #ffffff;
   }
 
   .button:active, .button.is-checked {
