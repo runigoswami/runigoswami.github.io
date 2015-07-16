@@ -188,7 +188,7 @@ Navbar Styling
     width: auto;
     list-style: none;
     margin: 0;
-    padding: 15px 0px;
+    padding: 10px 0px;
     line-height: 1;
     display: block;
     zoom: 1;
@@ -205,7 +205,7 @@ Navbar Styling
     position: fixed;
     text-align: center;
     top: 0;
-    height: 40px;
+    height: 60px;
     z-index: 1;
   }
   /*.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }*/

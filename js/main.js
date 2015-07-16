@@ -122,7 +122,7 @@
 
   $(document).ready(function(){
     $(window).bind('scroll', function() {
-    var navHeight = $( window ).height() - 40;
+    var navHeight = $( window ).height() - 60;
       if ($(window).scrollTop() > navHeight) {
         $('#filtration_bar').addClass('fixed');
       }
