@@ -47,8 +47,8 @@
     $slide.height(winH);
     var halfWindowHeight = winH - (winH / 2);
     var onethirdsHeight = (winH) / 3;
-    $('#cover-1').height(2*onethirdsHeight);
-    $('#works').height(.9*winH);
+    $('#cover-1').height(2 * onethirdsHeight);
+    $('#works').height(.9 * winH);
     // $('#cover-2').height(2*onethirdsHeight);
     // $('#cover-1 .covercontainer').height(twothirdsHeight);
     // $('#cover-1 .handscontainer').height(twothirdsHeight);
@@ -118,6 +118,34 @@
       preserveAspectRatio: "xMaxYMin meet"
     });
   });
+
+
+  $(document).ready( function() {
+
+  $('.grid').isotope({
+    itemSelector: '.grid-item',
+  });
+
+
+  var $container = $('#container')
+  // initialize Isotope
+  $container.isotope({
+    // options...
+    resizable: false, // disable normal resizing
+    // set columnWidth to a percentage of container width
+    masonry: { columnWidth: $container.width() / 10 }
+  });
+
+  // update columnWidth on window resize
+  $(window).resize(function(){
+    $container.isotope({
+      // update columnWidth to a percentage of container width
+      masonry: { columnWidth: $container.width() / 10 }
+    });
+  });
+
+
+});
 
 
 

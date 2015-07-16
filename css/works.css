@@ -10,6 +10,7 @@ body {
   src: url('CooperHewitt-Light.eot');
   src: url('CooperHewitt-Light.eot?#iefix') format('embedded-opentype'), url('CooperHewitt-Light.woff') format('woff'), url('CooperHewitt-Light.ttf') format('truetype'), url('CooperHewitt-Light.svg#webfont') format('svg');
 }
+
 /*
 * Remove text-shadow in selection highlight: h5bp.com/i
 * These selection rule sets have to be separate.
@@ -24,6 +25,12 @@ body {
   background: #000000;
   text-shadow: none;
 }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /* ==========================================================================
 Chrome Frame prompt
 ========================================================================== */
@@ -34,6 +41,7 @@ Chrome Frame prompt
   color: #000;
   padding: 0.2em 0;
 }
+
 /* ==========================================================================
 Navbar Styling
 ========================================================================== */
@@ -45,7 +53,7 @@ Navbar Styling
   z-index: 99999;
   position: absolute;
   float: right;
-  margin-left:60%;
+  margin-left: 60%;
 }
 #navi ul {
   list-style: none;
@@ -127,11 +135,13 @@ Navbar Styling
 #navi.align-right li:first-child a:after {
   display: none;
 }
+
 /* ==========================================================================
 Body Styling
 ========================================================================== */
 
 body, html {
+  width: 100%;
   height: 100%;
   min-height: 100%;
   background-color: #000000;
@@ -147,7 +157,6 @@ h1, h2, h3 {
 .no-js {
   padding-top: 106px;
 }
-
 .cover .baselayer {
   position: relative;
   background-position: center center;
@@ -157,11 +166,11 @@ h1, h2, h3 {
   height: 100%;
   width: 100%;
 }
-.content .baselayer {
+.workscontent .baselayer {
   position: relative;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  /*background-size: cover;*/
   height: 100%;
   width: 100%;
 }
@@ -171,7 +180,6 @@ h1, h2, h3 {
   overflow: hidden;
   position: relative;
 }
-
 #works .baselayer {
   background-image: url('../img/vibrantworks.jpg');
 }
@@ -180,8 +188,42 @@ h1, h2, h3 {
   width: 100%;
   height: 100%;
 }
-#grid .baselayer {
-  background-color:#ffffff;
+#bkgd .contentcontainer {
+  background-color: #ffffff;
+}
+
+/* ---- grid ---- */
+
+.grid {}
+
+/* clear fix */
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.space {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+#thumb_frameshift .grid-item {
+  background-image: url('../img/thumbs/thumb_1_frameshift.jpg');
+}
+.grid-item {
+  float: left;
+  width: 45vw;
+  height: 100vh;
+  background: #5acecf;
+}
+.grid-item--width2 {
+  width: 30vw;
+}
+.grid-item--height2 {
+  height: 50vh;
 }
 
 /* ==========================================================================
