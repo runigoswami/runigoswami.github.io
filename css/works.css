@@ -287,11 +287,14 @@ Body Styling
   #thumb_VCL {
     background-image: url('../img/thumbs/thumb_vcl.jpg');
   }
+  #thumb_how {
+    background-image: url('../img/thumbs/thumb_howwework.jpg');
+  }
   #overlay {
     background: rgba(90, 206, 207, .75);
     background-size: cover;
     text-align: center;
-    padding: 39vh 0 40vh 0;
+    padding: 39.5vh 0 40vh 0;
     opacity: 0;
     -webkit-transition: opacity .25s ease;
     -moz-transition: opacity .25s ease;
@@ -321,10 +324,10 @@ Body Styling
     width: 30vw;
   }
   .grid-item--height2 {
-    height: 50vh;
+    height: 25vw;
   }
   .grid-item--height3 {
-    height: 90vh;
+    height: 90vw;
   }
   /* ==========================================================================
 Media Queries for Responsive Design.
