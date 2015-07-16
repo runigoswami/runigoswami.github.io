@@ -63,24 +63,8 @@
     causeRepaintsOn.css("z-index", 1);
     adjustWindow();
   });
-  //
-  // function bbox(e) {
-  //   if (e && e.getBBox) {
-  //     var box = e.getBBox();
-  //     if (box.x && box.y && box.width && box.height) {
-  //       var rect = box.path;
-  //
-  //       // rect.setAttributeNS(null, 'fill', 'rgba(0,0,0,0)');
-  //       // rect.setAttributeNS(null, 'stroke', 'rgba(0,0,0,0)');
-  //       // rect.setAttributeNS(null, 'transform', transform);
-  //       e.append(rect);
-  //       console.log(rect);
-  //       return rect;
-  //     }
-  //   }
-  //   return null;
-  // };
 
+  //Runi cloud hover effects
 
   var s = Snap('#runicloud_svg');
   Snap.load("img/svgs/runicloud.svg", function(f) {
@@ -112,25 +96,25 @@
         }
       );
     }
-
-
     s.select('svg').attr({
       preserveAspectRatio: "xMaxYMin meet"
     });
   });
 
+  //Filtration Bar Styling on Selected Works Page
 
-  $(document).ready(function(){
+  $(document).ready(function() {
     $(window).bind('scroll', function() {
-    var navHeight = $( window ).height() - 70;
+      var navHeight = $(window).height() - 70;
       if ($(window).scrollTop() > navHeight) {
         $('#filtration_bar').addClass('fixed');
-      }
-      else {
+      } else {
         $('#filtration_bar').removeClass('fixed');
       }
-   });
- });
+    });
+  });
+
+  //Filtration Bar filtering
 
   $(document).ready(function() {
 
@@ -152,6 +136,7 @@
       $container.isotope({
         filter: filterValue
       });
+      window.dispatchEvent(new Event('resize'));
     });
     // change is-checked class on buttons
     $('.button-group').each(function(i, buttonGroup) {
