@@ -292,23 +292,29 @@ Body Styling
   #thumb_shoes {
     background-image: url('../img/thumbs/thumb_shoes.jpg');
   }
-  #overlay {
+  .overlay {
     background: rgba(90, 206, 207, .75);
     background-size: cover;
+    width: 100%;
+    height: 100%;
     text-align: center;
-    padding: 39.5vh 0 40vh 0;
     opacity: 0;
+    position: relative;
+    display: table;
     -webkit-transition: opacity .25s ease;
     -moz-transition: opacity .25s ease;
   }
-  #thumb_frameshift:hover #overlay {
+
+  .grid-item:hover .overlay {
     opacity: 1;
   }
   #text_overlay {
-    font-family: CooperHewitt-Light;
-    font-weight: 100;
+    font-family: CooperHewitt-Semibold;
+    font-weight: 300;
+    display: table-cell;
+    vertical-align: middle;
     color: rgba(255, 255, 255, .85);
-    font-size: 36px;
+    font-size: 24px;
   }
   .grid-item {
     float: left;
@@ -318,6 +324,7 @@ Body Styling
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
+    /*position:relative;*/
   }
   .grid-item--width2 {
     width: 30vw;
