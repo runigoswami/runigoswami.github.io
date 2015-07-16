@@ -340,6 +340,7 @@ Body Styling
 
   .footer {
     background-color: #ffffff;
+    height: 100px;
   }
   #footernabber{
     background-color: rgb(255, 255, 255);
