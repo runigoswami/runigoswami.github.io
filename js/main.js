@@ -122,12 +122,12 @@
 
   $(document).ready(function(){
     $(window).bind('scroll', function() {
-    var navHeight = $( window ).height() - 100;
+    var navHeight = $( window ).height() - 70;
       if ($(window).scrollTop() > navHeight) {
-        $('.button-group').addClass('fixed');
+        $('#filtration_bar').addClass('fixed');
       }
       else {
-        $('.button-group').removeClass('fixed');
+        $('#filtration_bar').removeClass('fixed');
       }
    });
  });
