@@ -205,7 +205,7 @@ Navbar Styling
     position: fixed;
     text-align: center;
     top: 0;
-    height: 60px;
+    height: 100px;
     z-index: 1;
   }
   /*.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }*/
