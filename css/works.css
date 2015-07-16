@@ -88,7 +88,7 @@ Navbar Styling
     font-family: 'CooperHewitt-Thin', sans-serif;
     font-weight: 100;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
     position: relative;
     -webkit-transition: color .25s;
     -moz-transition: color .25s;
@@ -147,11 +147,11 @@ Navbar Styling
     color: #292929;
     text-decoration: none;
     display: block;
-    padding: 15px 25px;
+    padding: 10px 25px;
     font-family: 'CooperHewitt-Thin', sans-serif;
     font-weight: 100;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 11px;
     position: relative;
     -webkit-transition: color .25s;
     -moz-transition: color .25s;
@@ -164,27 +164,17 @@ Navbar Styling
     text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
     color: #222;
   }
-  .button:before {
-    content: "";
-    position: absolute;
-    display: block;
-    left: 0;
-    bottom: 0;
-    height: 4px;
-    width: 0;
-    background: #f57247;
-    -webkit-transition: width .25s;
-    -moz-transition: width .25s;
-    -ms-transition: width .25s;
-    -o-transition: width .25s;
-    transition: width .25s;
-  }
+
   .button:active, .button.is-checked {
-    background-color: #28F;
+    background-color: #f57247;
+    border-color: transparent;
+    outline: none;
   }
   .button.is-checked {
     color: white;
     text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+    border-color: transparent;
+    outline: none;
   }
   .button:active {
     /*box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);*/
@@ -214,7 +204,7 @@ Navbar Styling
     position: fixed;
     text-align: center;
     top: 0;
-    height: 70px;
+    height: 50px;
     z-index: 1;
   }
   /*.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }*/
