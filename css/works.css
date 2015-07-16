@@ -207,23 +207,55 @@ h1, h2, h3 {
 /* ---- .grid-item ---- */
 
 .space {
-  margin-left: 50px;
-  margin-top: 50px;
+  margin: 3vw;
 }
-#thumb_frameshift .grid-item {
+#thumb_frameshift {
   background-image: url('../img/thumbs/thumb_1_frameshift.jpg');
+}
+#thumb_berry {
+  background-image: url('../img/thumbs/thumb_berry.jpg');
+}
+#thumb_VCL {
+  background-image: url('../img/thumbs/thumb_vcl.jpg');
+}
+#overlay {
+  background: rgba(90, 206, 207, .75);
+  background-size: cover;
+  text-align: center;
+  padding: 38vh 0 39vh 0;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+#thumb_frameshift:hover #overlay {
+  opacity: 1;
+}
+#plus {
+  font-family: CooperHewitt-Light;
+  font-weight: 100;
+  color: rgba(255, 255, 255, .85);
+  font-size: 48px;
 }
 .grid-item {
   float: left;
-  width: 45vw;
-  height: 100vh;
-  background: #5acecf;
+  width: 42vw;
+  height: 80vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .45);
 }
 .grid-item--width2 {
   width: 30vw;
 }
+.grid-item--width3 {
+  width: 30vw;
+}
 .grid-item--height2 {
   height: 50vh;
+}
+.grid-item--height3 {
+  height: 90vh;
 }
 
 /* ==========================================================================
