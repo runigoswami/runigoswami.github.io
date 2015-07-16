@@ -84,7 +84,7 @@ Navbar Styling
     color: #292929;
     text-decoration: none;
     display: block;
-    padding: 15px 25px;
+    padding: 10px 25px;
     font-family: 'CooperHewitt-Thin', sans-serif;
     font-weight: 100;
     text-transform: uppercase;
@@ -109,7 +109,7 @@ Navbar Styling
     left: 0;
     bottom: 0;
     height: 4px;
-    width: 0;
+      width: 0;
     background: #f57247;
     -webkit-transition: width .25s;
     -moz-transition: width .25s;

@@ -79,11 +79,11 @@ Navbar Styling
   color: #ffffff;
   text-decoration: none;
   display: block;
-  padding: 15px 25px;
+  padding: 10px 25px;
   font-family: 'CooperHewitt-Thin', sans-serif;
   font-weight: 100;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
   position: relative;
   -webkit-transition: color .25s;
   -moz-transition: color .25s;
