@@ -29,12 +29,12 @@
   <main id="skrollr-body">
     <!-- Nav Bar -->
     <nav id="navi">
-        <ul>
-          <li class="active"><a href="index">Home</a></li>
-          <li><a href="/works">Selected Works</a></li>
-          <li><a href="/resume">Resume</a></li>
-          <li><a href="#cover-2">Contact</a></li>
-        </ul>
+      <ul>
+        <li class="active"><a href="index">Home</a></li>
+        <li><a href="/works">Selected Works</a></li>
+        <li><a href="/resume">Resume</a></li>
+        <li><a href="#cover-2">Contact</a></li>
+      </ul>
     </nav>
 
     <section id="cover-0" class="cover">
@@ -193,7 +193,7 @@
   <!-- /container -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-  
+
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script>
     window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
@@ -204,6 +204,15 @@
   <script src="js/skrollr.js"></script>
   <script src="js/vendor/snap.svg-min.js"></script>
   <script src="js/vendor/imgix.min.js"></script>
+  <script>
+    imgix.onready(function() {
+      imgix.fluid({
+        updateOnResizeDown: true,
+        pixelRounding: 5,
+        autoInsertCSSBestPractices: true
+      });
+    });
+  </script>
   <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

@@ -103,10 +103,10 @@
               </div>
             </div>
             <div id="thumb_placeholder3" class="space webapp grid-item grid-item--width3 grid-item--height4">
-            <div class="overlay">
-              <span id="text_overlay">Thanks for hovering!</span>
+              <div class="overlay">
+                <span id="text_overlay">Thanks for hovering!</span>
+              </div>
             </div>
-          </div>
             <div id="thumb_placeholder4" class="space other grid-item">
               <div class="overlay">
                 <span id="text_overlay">Hey there!</span>
@@ -158,6 +158,15 @@
     <script src="js/vendor/snap.svg-min.js"></script>
     <script src="/js/vendor/isotope.pkgd.min.js"></script>
     <script src="js/vendor/imgix.min.js"></script>
+    <script>
+      imgix.onready(function() {
+        imgix.fluid({
+          updateOnResizeDown: true,
+          pixelRounding: 5,
+          autoInsertCSSBestPractices: true
+        });
+      });
+    </script>
     <script src="js/main.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
