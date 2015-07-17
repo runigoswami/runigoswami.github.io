@@ -362,14 +362,14 @@ These examples override the primary ('mobile first') styles.
 
   @media (min-width: 1200px) {
     #navi {
-      margin-left: 70%;
+      margin-left: 60%;
     }
 }
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
   #navi {
-    margin-left: 60%;
+    margin-left: 50%;
   }
 }
 
