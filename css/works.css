@@ -72,6 +72,7 @@ h1, h2, h3{font-family:'CooperHewitt-Light', sans-serif;font-weight:400;color:#0
 #navi{background-color:rgba(255, 255, 255, 0.8)}
 #navi ul li a{padding: 15px 25px;font-family: 'CooperHewitt-Thin', sans-serif;width:100%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;border-bottom:1px solid #f7b19a;}
 #navi ul li.last > a, #navi ul li:last-child > a{border:0;}
+#navi ul li.active a{color:#f7b19a;}
 #navi ul li a:after{display:none;}
 #navi ul li a:before{display:none;}
 @media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important;}
