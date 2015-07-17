@@ -728,7 +728,7 @@
         margin-left: 60%;
       }
       #cover-0 .baselayer {
-        background-image: url('http://runigoswami-dali.imgix.net/cover0_layer0.jpg?w=960&h=640&crop=fit');
+        /*background-image: url('http://runigoswami-dali.imgix.net/cover0_layer0.jpg?w=960&h=640&crop=fit');*/
       }
       #cover-0 .frame {
         background-image: url('http://runigoswami-dali.imgix.net/cover0_layer1.png?w=960&h=640&crop=fit');
@@ -738,6 +738,9 @@
       }
       #cover-0 .flower {
         background-image: url('http://runigoswami-dali.imgix.net/cover0_layer2.png?w=960&h=640&crop=fit');
+      }
+      #cover-2 .baselayer {
+        background-image: url('http://runigoswami-dali.imgix.net/cover2_layer0.jpg?w=960&h=640&crop=fit');
       }
     }
     @media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
