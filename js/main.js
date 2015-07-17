@@ -24,7 +24,7 @@
   function adjustWindow() {
 
     // Init Skrollr
-    var s = skrollr.init({
+    var s = skrollr.min.init({
       render: function(data) {
         //Debugging - Log the current scroll position.
         //console.log(data.curTop);
