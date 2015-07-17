@@ -2,14 +2,13 @@
   $window = $(window);
   $slide = $('.cover, .content');
   $body = $('body');
+
   $body.imagesLoaded(function() {
     setTimeout(function() {
       adjustWindow();
       $body.removeClass('loading').addClass('loaded');
     }, 1);
   });
-
-
 
   function adjustWindow() {
     var s = skrollr.init({
