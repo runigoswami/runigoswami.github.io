@@ -61,6 +61,43 @@
     adjustWindow();
   });
 
+
+  //imgix stuff
+
+  imgix.onready(function() {
+    // Applied to images that contain the imgix-fluid class
+    // Can take an options object to set more specific behaviors
+    imgix.fluid();
+  });
+
+  /* imgix.fluid() optional parameters */
+  var bgOptions = {
+    fluidClass: 'imgix-fluid-bg',
+    updateOnResizeDown: true,
+    updateOnPinchZoom: true,
+    pixelStep: 10,
+    autoInsertCSSBestPractices: true,
+    onChangeParamOverride: function(w, h) {
+       /* Override and insert additional imgix parameters*/
+       /* Currently displaying information about the image size and dpr */
+      var dpr = Math.ceil(window.devicePixelRatio*10) /10;
+      return {
+        "txt": "w:" + w + " h:" +h + " dpr:" + dpr,
+        "txtalign": "center,bottom",
+        "txtsize": 20,
+        "txtfont": "Helvetica%20Neue,bold",
+        "txtclr": "ffffffff",
+        "txtpad": 20,
+        "txtfit": 'max',
+        "exp": -2
+      };
+    }
+  };
+  imgix.onready(function() {
+    imgix.fluid(bgOptions);
+  });
+
+
   //Runi cloud hover effects
 
   var s = Snap('#runicloud_svg');
