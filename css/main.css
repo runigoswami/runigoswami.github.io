@@ -661,6 +661,9 @@
         width: 70%;
         height: 70%;
       }
+      #navi {
+        margin-left: 60%;
+      }
     }
     /* Landscape tablets and medium desktops */
 
@@ -675,6 +678,9 @@
         width: 70%;
         height: 70%;
       }
+      #navi {
+        margin-left: 50%;
+      }
     }
     /* Portrait tablets and small desktops */
 
@@ -688,6 +694,9 @@
       #content-1 .frameshift_balloon {
         width: 80%;
         /*height:80%;*/
+      }
+      #navi {
+        margin-left: 50%;
       }
     }
     /* Landscape phones and portrait tablets */
@@ -710,6 +719,9 @@
         width: 50%;
         /*height:50%;*/
       }
+      #navi {
+        margin-left: 40%;
+      }
     }
     /* Portrait phones and smaller */
 
@@ -730,6 +742,9 @@
       #content-1 .frameshift_balloon {
         width: 50%;
         /*height:50%;*/
+      }
+      #navi {
+        margin-left: 0%;
       }
     }
     @media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
