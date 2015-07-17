@@ -255,7 +255,7 @@ Body Styling
     position: relative;
   }
   #works .baselayer {
-    background-image: url('../img/workshead.jpg');
+    background-image: url('http://runigoswami-dali.imgix.net/workshead.jpg');
   }
   #works .covercontainer {
     position: absolute;
@@ -278,19 +278,19 @@ Body Styling
     margin: 2.5vw;
   }
   #thumb_frameshift {
-    background-image: url('../img/thumbs/thumb_1_frameshift.jpg');
+    background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_1_frameshift.jpg');
   }
   #thumb_berry {
-    background-image: url('../img/thumbs/thumb_berry.jpg');
+    background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_berry.jpg');
   }
   #thumb_VCL {
-    background-image: url('../img/thumbs/thumb_vcl.jpg');
+    background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_vcl.jpg');
   }
   #thumb_how {
-    background-image: url('../img/thumbs/thumb_howwework.jpg');
+    background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_howwework.jpg');
   }
   #thumb_shoes {
-    background-image: url('../img/thumbs/thumb_shoes.jpg');
+    background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_shoes.jpg');
   }
   .overlay {
     background: rgba(90, 206, 207, .75);

@@ -67,7 +67,7 @@
   //Runi cloud hover effects
 
   var s = Snap('#runicloud_svg');
-  Snap.load("img/svgs/runicloud.svg", function(f) {
+  Snap.load("http://runigoswami-dali.imgix.net/svgs/runicloud.svg", function(f) {
     // Note that we traversre and change attr before SVG
     // is even added to the page
     var thoughts = [
