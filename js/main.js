@@ -9,7 +9,9 @@
 
   //FadeIn all sections
   $body.imagesLoaded(function() {
+
     setTimeout(function() {
+  
 
       // Resize sections
       adjustWindow();
@@ -24,7 +26,7 @@
   function adjustWindow() {
 
     // Init Skrollr
-    var s = skrollr.min.init({
+    var s = skrollr.init({
       render: function(data) {
         //Debugging - Log the current scroll position.
         //console.log(data.curTop);
