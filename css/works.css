@@ -267,6 +267,12 @@ h1, h2, h3, p {
 #thumb_leverone{
   background-image: url('http://runigoswami-dali.imgix.net/thumbs/leverone.png');
 }
+#thumb_adfontes{
+  background-image: url('http://runigoswami-dali.imgix.net/thumbs/adfontes.jpg');
+}
+#thumb_wedding{
+  background-image: url('http://runigoswami-dali.imgix.net/thumbs/didi.jpg');
+}
 .overlay {
   background: rgba(90, 206, 207, .75);
   background-size: cover;
