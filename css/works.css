@@ -264,6 +264,9 @@ h1, h2, h3 {
 #thumb_draper{
   background-image: url('http://runigoswami-dali.imgix.net/thumbs/draper.png');
 }
+#thumb_leverone{
+  background-image: url('http://runigoswami-dali.imgix.net/thumbs/leverone.png');
+}
 .overlay {
   background: rgba(90, 206, 207, .75);
   background-size: cover;
