@@ -283,7 +283,7 @@ h1, h2, h3, p {
   opacity: 1;
 }
 #text_overlay {
-  font-family: CooperHewitt-Light;
+  font-family: 'CooperHewitt-Light', sans-serif;
   font-weight: 100;
   display: table-cell;
   vertical-align: middle;
