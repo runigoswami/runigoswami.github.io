@@ -261,6 +261,9 @@ h1, h2, h3 {
 #chaise{
   background-image: url('http://runigoswami-dali.imgix.net/thumbs/chaise.jpg');
 }
+#thumb_draper{
+  background-image: url('http://runigoswami-dali.imgix.net/thumbs/draper.jpg');
+}
 .overlay {
   background: rgba(90, 206, 207, .75);
   background-size: cover;
