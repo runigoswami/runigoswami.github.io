@@ -201,6 +201,31 @@ h1, h2, h3, p {
 .no-js {
   padding-top: 106px;
 }
+
+.loading {
+  /*background: url('../img/ico_loading.gif') no-repeat center center;*/
+}
+section {
+  /*min-width: 960px;*/
+  opacity: 0;
+}
+.loaded section, .no-js section {
+  opacity: 1;
+  -webkit-transition: opacity 300ms ease-out;
+  -moz-transition: opacity 300ms ease-out;
+  transition: opacity 300ms ease-out;
+}
+main {
+  overflow-x: hidden;
+}
+#preload {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .cover .baselayer {
   position: relative;
   background-position: center center;
