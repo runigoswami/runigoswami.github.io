@@ -191,7 +191,7 @@ body, html {
   background-color: #000000;
   font: 100%/1.5em 'CooperHewitt-Light', sans-serif;
 }
-h1, h2, h3 {
+h1, h2, h3, p {
   font-family: 'CooperHewitt-Light', sans-serif;
   font-weight: 400;
   color: #000000;
