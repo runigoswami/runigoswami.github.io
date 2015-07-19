@@ -235,7 +235,7 @@ main {
   height: 100%;
   width: 100%;
 }
-.workscontent .baselayer {
+.postcontent .baselayer {
   position: relative;
   background-position: center center;
   background-repeat: no-repeat;
