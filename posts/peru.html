@@ -46,16 +46,45 @@
         </div>
       </section>
 
-
-
-
       <section id="bkgd" class="postcontent">
-        <div>
-
-
-
-
+        <div id="displaymarky">
         </div>
+
+        <div id=‘#mymarkdown style=“display:none;”>
+        An h1 header
+        ============
+
+        Paragraphs are separated by a blank line.
+
+        2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
+        look like:
+
+          * this one
+          * that one
+          * the other one
+
+        Note that --- not considering the asterisk --- the actual text
+        content starts at 4-columns in.
+
+        > Block quotes are
+        > written like so.
+        >
+        > They can span multiple paragraphs,
+        > if you like.
+
+        Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
+        in chapters 12--14"). Three dots ... will be converted to an ellipsis.
+        Unicode is supported. ☺
+
+        An h2 header
+        ------------
+
+        Here's a numbered list:
+
+         1. first item
+         2. second item
+         3. third item
+         </div>
 
         <div class="contentcontainer">
           <!-- <div id=filtration_bar>
@@ -94,6 +123,7 @@
   <script src="../js/vendor/snap.svg-min.js"></script>
   <script src="../js/vendor/isotope.pkgd.min.js"></script>
   <script src="../js/vendor/imgix.min.js"></script>
+  <script src="../js/vendor/marked.min.js"></script>
   <script>
     imgix.onready(function() {
       imgix.fluid({
