@@ -22,11 +22,7 @@
   });
 
   // $('#displaymarky').html(marked($('#mymarkdown').html()));
-  $.get("/posts/peru.md", function( data ) {
-    $("#displaymarky").html(marked(data));
-    console.log("loaded some stuff");
-  });
-  console.log("doing stuff");
+
 
 
   if (!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {

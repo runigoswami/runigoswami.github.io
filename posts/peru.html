@@ -14,6 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="../favicon.ico" />
   <link rel="stylesheet" href="../css/posts.css">
+  <script src="../js/vendor/marked.min.js"></script>
   <!-- <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'> -->
   <style>
     body {
@@ -49,11 +50,16 @@
       <section id="bkgd" class="postcontent">
         <div id="displaymarky">
         </div>
+        <script>
+          $.get("/posts/peru.md", function(data) {
+            $("#displaymarky").html(marked(data));
+            console.log("loaded some stuff");
+          });
+          console.log("doing stuff");
+        </script>
 
-      <div id="mymarkdown" style="display:none;">
-
-
-      </div>
+        <div id="mymarkdown" style="display:none;">
+        </div>
 
 
         <div class="contentcontainer">
@@ -93,7 +99,6 @@
   <script src="../js/vendor/snap.svg-min.js"></script>
   <script src="../js/vendor/isotope.pkgd.min.js"></script>
   <script src="../js/vendor/imgix.min.js"></script>
-  <script src="../js/vendor/marked.min.js"></script>
   <script>
     imgix.onready(function() {
       imgix.fluid({
