@@ -9,20 +9,8 @@
       $body.removeClass('loading').addClass('loaded');
     }, 1);
   });
-  // document.getElementById('content').innerHTML =
-  //       marked('# Marked in browser\n\nRendered by **marked**.');
-  // var marked = require('marked');
-  // marked.setOptions({
-  //   renderer: new marked.Renderer(),
-  //   gfm: true,
-  //   tables: true,
-  //   breaks: false,
-  //   pedantic: false,
-  //   sanitize: true,
-  //   smartLists: true,
-  //   smartypants: false
-  // });
-  $('#displaymarky').html('marked'($('#mymarkdown').html()));
+
+  $('#displaymarky').html(marked($('#mymarkdown').html()));
 
   if (!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
     function adjustWindow() {
