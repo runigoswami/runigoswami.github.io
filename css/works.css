@@ -348,6 +348,9 @@ main {
 .grid-item--height4 {
   height: 20vw;
 }
+.grid-item--height5 {
+  height: 30vw;
+}
 .footer {
   background-color: #ffffff;
   height: 100px;
