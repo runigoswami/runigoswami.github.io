@@ -189,13 +189,14 @@ body, html {
   height: 100%;
   min-height: 100%;
   background-color: #000000;
-  font: 100%/1.5em '../fonts/CooperHewitt-Light', sans-serif;
+  /*font: 100%/1.5em '../fonts/CooperHewitt-Light', sans-serif;*/
 }
 
 h1 {
   font-family: '../fonts/CooperHewitt-Light', sans-serif;
-  font-weight:800;
-  font-size: 48em;
+  /*font-weight:800;*/
+  color: #5acecf;
+  font-size: 2.5em;
   color: #;
   text-align: center;
   margin-top: 0;
@@ -203,7 +204,7 @@ h1 {
 h2, h3, p {
   font-family: '../fonts/CooperHewitt-Light', sans-serif;
   font-weight: 400;
-  color: #000000;
+  color: #5acecf;
   text-align: center;
   margin-top: 0;
 }
@@ -268,48 +269,7 @@ main {
 #bkgd .contentcontainer {
   background-color: #ffffff;
 }
-/*.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-.space {
-  margin: 2.5vw;
-}*/
 
-/*#thumb_frameshift {
-background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_1_frameshift.jpg');
-}
-#thumb_berry {
-background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_berry.jpg');
-}
-#thumb_VCL {
-background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_vcl.jpg');
-}
-#thumb_how {
-background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_howwework.jpg');
-}
-#thumb_shoes {
-background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_shoes.jpg');
-}
-#chaise{
-background-image: url('http://runigoswami-dali.imgix.net/thumbs/chaise.jpg');
-}
-#thumb_draper{
-background-image: url('http://runigoswami-dali.imgix.net/thumbs/draper.png');
-}
-#thumb_leverone{
-background-image: url('http://runigoswami-dali.imgix.net/thumbs/leverone.png');
-}
-#thumb_adfontes{
-background-image: url('http://runigoswami-dali.imgix.net/thumbs/adfontes.jpg');
-}
-#thumb_wedding{
-background-image: url('http://runigoswami-dali.imgix.net/thumbs/didi.jpg');
-}
-#wanderlust{
-background-image: url('http://runigoswami-dali.imgix.net/thumbs/wanderlust.jpg');
-}*/
 
 #footernabber {
   background-color: rgb(255, 255, 255);
