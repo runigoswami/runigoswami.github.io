@@ -6,9 +6,9 @@ body {
   line-height: 1.4;
 }
 @font-face {
-  font-family: 'CooperHewitt-Light';
-  src: url('CooperHewitt-Light.eot');
-  src: url('CooperHewitt-Light.eot?#iefix') format('embedded-opentype'), url('CooperHewitt-Light.woff') format('woff'), url('CooperHewitt-Light.ttf') format('truetype'), url('CooperHewitt-Light.svg#webfont') format('svg');
+  font-family: '../fonts/CooperHewitt-Light';
+  src: url('../fonts/CooperHewitt-Light.eot');
+  src: url('../fonts/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/CooperHewitt-Light.woff') format('woff'), url('../fonts/CooperHewitt-Light.ttf') format('truetype'), url('../fonts/CooperHewitt-Light.svg#webfont') format('svg');
 }
 ::-moz-selection {
   background: #000000;
@@ -189,10 +189,19 @@ body, html {
   height: 100%;
   min-height: 100%;
   background-color: #000000;
-  font: 100%/1.5em 'CooperHewitt-Light', sans-serif;
+  font: 100%/1.5em '../fonts/CooperHewitt-Light', sans-serif;
 }
-h1, h2, h3, p {
-  font-family: 'CooperHewitt-Light', sans-serif;
+
+h1 {
+  font-family: '../fonts/CooperHewitt-Light', sans-serif;
+  font-weight:800;
+  font-size: 48em;
+  color: #;
+  text-align: center;
+  margin-top: 0;
+}
+h2, h3, p {
+  font-family: '../fonts/CooperHewitt-Light', sans-serif;
   font-weight: 400;
   color: #000000;
   text-align: center;
