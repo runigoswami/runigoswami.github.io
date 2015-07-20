@@ -258,8 +258,11 @@ main {
   overflow: hidden;
   position: relative;
 }
-#works .baselayer {
+#peru-cover .baselayer {
   background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_wanderlust.jpg');
+}
+#frameshift-cover .baselayer {
+  background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_frameshift.jpg');
 }
 #works .covercontainer {
   position: absolute;
@@ -335,6 +338,16 @@ main {
   }
   #navi ul li a:before {
     display: none;
+  }
+  /* Portrait phones and smaller */
+
+  @media (max-width: 480px) {
+    #peru-cover .baselayer {
+      background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_wanderlust.jpg?w=960&h=640&crop=fit,left,top');
+    }
+    #frameshift-cover .baselayer {
+      background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_frameshift.jpg?w=960&h=640&crop=fit');
+    }
   }
   @media print {
     * {

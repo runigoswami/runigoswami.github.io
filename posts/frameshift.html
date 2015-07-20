@@ -29,7 +29,7 @@
 
 <body class="loading">
   <div id="preload">
-    <img src="http://runigoswami-dali.imgix.net/thumbs/thumb_wanderlust.jpg">
+    <img src="http://runigoswami-dali.imgix.net/thumbs/thumb_frameshift.jpg">
   </div>
   <div id="wrapper">
     <!--[if lt IE 8]>
@@ -45,7 +45,7 @@
         </ul>
       </nav>
 
-      <section id="peru-cover" class="cover">
+      <section id="frameshift-cover" class="cover">
         <div class="baselayer" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#works">
           <div class="covercontainer"> </div>
         </div>
@@ -55,7 +55,7 @@
         <div id="displaymarky">
         </div>
         <script>
-          $.get("/posts/peru.md", function(data) {
+          $.get("/posts/frameshift.md", function(data) {
             $("#displaymarky").html(marked(data));
             console.log("loaded some stuff");
           });

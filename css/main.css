@@ -551,7 +551,7 @@
       #content-4 .contentcontainer {
         bottom: 500px;
       }
-      
+
       .footer {
         background-color: #ffffff;
         height: 100px;
@@ -768,7 +768,7 @@
           background-image: url('http://runigoswami-dali.imgix.net/cover1_berryballoon.png?w=960&h=640&crop=fit');
         }
         #cover-2 .hathi {
-          background-image: url('http://runigoswami-dali.imgix.net/cover2_layer2.png?w=960&h=640&crop=fit');
+          background-image: url('http://runigoswami-dali.imgix.net/cover2_layer2.png?w=960&h=640&crop=fit,right');
         }
         #cover-2 .baselayer {
           background-image: url('http://runigoswami-dali.imgix.net/cover2_layer0.jpg?w=960&h=640&crop=fit');
