@@ -261,7 +261,7 @@ main {
   background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_wanderlust.jpg');
 }
 #frameshift-cover .baselayer {
-  background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_frameshift.jpg');
+  background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_1_frameshift.jpg');
 }
 #works .covercontainer {
   position: absolute;
@@ -345,7 +345,7 @@ main {
       background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_wanderlust.jpg?w=960&h=640&crop=fit,left,top');
     }
     #frameshift-cover .baselayer {
-      background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_frameshift.jpg?w=960&h=640&crop=fit');
+      background-image: url('http://runigoswami-dali.imgix.net/thumbs/thumb_1_frameshift.jpg?w=960&h=640&crop=fit');
     }
   }
   @media print {
