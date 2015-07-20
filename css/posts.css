@@ -278,6 +278,10 @@ main {
 #down{
   display: table-cell;
   color: rgb(255, 255, 255);
+  font-size: 18pt;
+  line-height: 1.33;
+  padding: 3vw;
+  vertical-align: bottom;
 }
 
 
