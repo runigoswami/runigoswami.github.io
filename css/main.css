@@ -203,7 +203,7 @@
       /* Cover 0*/
 
       #cover-0 .baselayer {
-        background-image: url('http://runigoswami-dali.imgix.net/cover0_layer0.jpg');
+        background-image: url('/img/cover0_layer0.jpg');
       }
       #cover-0 .covercontainer {
         /*z-index: 80;*/
@@ -213,7 +213,7 @@
         /*z-index: -1000;*/
       }
       #cover-0 .frame {
-        background-image: url('http://runigoswami-dali.imgix.net/cover0_layer1.png');
+        background-image: url('/img/cover0_layer1.png');
         background-position: center center;
         background-origin: border-box;
         background-repeat: no-repeat;
@@ -228,7 +228,7 @@
         height: 100%;
       }
       #cover-0 .logo {
-        background-image: url('http://runigoswami-dali.imgix.net/cover0_layer3.png');
+        background-image: url('/img/cover0_layer3.png');
         background-position: center center;
         background-origin: border-box;
         background-repeat: no-repeat;
@@ -244,7 +244,7 @@
         height: 100%;
       }
       #cover-0 .flower {
-        background-image: url('http://runigoswami-dali.imgix.net/cover0_layer2.png');
+        background-image: url('/img/cover0_layer2.png');
         background-position: center center;
         background-origin: border-box;
         background-attachment: fixed;
@@ -266,7 +266,7 @@
         height: 100%;
       }
       #cover-1 .frame {
-        background-image: url('http://runigoswami-dali.imgix.net/cover1_frame.png');
+        background-image: url('/img/cover1_frame.png');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -283,7 +283,7 @@
         position: absolute;
       }
       #cover-1 .lefthand {
-        background-image: url('http://runigoswami-dali.imgix.net/cover1_lefthand.png');
+        background-image: url('/img/cover1_lefthand.png');
         background-position: center center;
         background-origin: border-box;
         background-attachment: fixed;
@@ -302,7 +302,7 @@
         position: absolute;
       }
       #cover-1 .righthand {
-        background-image: url('http://runigoswami-dali.imgix.net/cover1_righthand.png');
+        background-image: url('/img/cover1_righthand.png');
         background-position: center center;
         background-origin: border-box;
         background-attachment: fixed;
@@ -315,7 +315,7 @@
       /* Cover 2 */
 
       #cover-2 .baselayer {
-        background-image: url('http://runigoswami-dali.imgix.net/cover2_layer0.jpg');
+        background-image: url('/img/cover2_layer0.jpg');
         /*background-color: #000000;*/
       }
       #cover-2 .covercontainer {
@@ -325,7 +325,7 @@
         height: 100%;
       }
       #cover-2 .frame {
-        background-image: url('http://runigoswami-dali.imgix.net/cover2_layer1.png');
+        background-image: url('/img/cover2_layer1.png');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -342,7 +342,7 @@
         position: absolute;
       }
       #cover-2 .hathi {
-        background-image: url('http://runigoswami-dali.imgix.net/cover2_layer2.png');
+        background-image: url('/img/cover2_layer2.png');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -353,7 +353,7 @@
       /* Cover 3 */
 
       #cover-3 .baselayer {
-        background-image: url('http://runigoswami-dali.imgix.net/cover3_layer0.png');
+        background-image: url('/img/cover3_layer0.png');
         background-size: contain;
       }
       #cover-3 .covercontainer {
@@ -364,7 +364,7 @@
         /*z-index: -1000;*/
       }
       #cover-3 .frame {
-        background-image: url('http://runigoswami-dali.imgix.net/cover3_layer1.png');
+        background-image: url('/img/cover3_layer1.png');
         background-position: center center;
         background-origin: border-box;
         background-repeat: no-repeat;
@@ -379,7 +379,7 @@
         height: 100%;
       }
       #cover-3 .candles {
-        background-image: url('http://runigoswami-dali.imgix.net/cover3_layer2.png');
+        background-image: url('/img/cover3_layer2.png');
         background-position: center center;
         background-origin: border-box;
         background-attachment: fixed;
@@ -398,7 +398,7 @@
       /* Content 0*/
 
       #content-0 .baselayer {
-        background-image: url('http://runigoswami-dali.imgix.net/content0_background.png');
+        background-image: url('/img/content0_background.png');
         padding-top: 20px;
       }
       #content-0 .runicloud {
@@ -425,7 +425,7 @@
         right: 0;
       }
       #content-0 .textcloud {
-        background-image: url('http://runigoswami-dali.imgix.net/content0_textcloud.png');
+        background-image: url('/img/content0_textcloud.png');
         background-position: center bottom;
         background-repeat: no-repeat;
         background-size: contain;
@@ -444,7 +444,7 @@
       /* Content 1*/
 
       #content-1 .baselayer {
-        background-image: url('http://runigoswami-dali.imgix.net/content1_background.png');
+        background-image: url('/img/content1_background.png');
         /*background-color: #ffffff;*/
       }
       #content-1 .swingcontainer {
@@ -454,7 +454,7 @@
         height: 100%;
       }
       #content-1 .swing {
-        background-image: url('http://runigoswami-dali.imgix.net/content1_runiswing.png');
+        background-image: url('/img/content1_runiswing.png');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -473,7 +473,7 @@
         height: 100%;
       }
       #content-1 .speechbubble {
-        background-image: url('http://runigoswami-dali.imgix.net/cover1_speechbubble.png');
+        background-image: url('/img/cover1_speechbubble.png');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -491,7 +491,7 @@
         height: 100%;
       }
       #content-1 .albatross_balloon {
-        background-image: url('http://runigoswami-dali.imgix.net/content1_albatrossballoon.png');
+        background-image: url('/img/content1_albatrossballoon.png');
         background-repeat: no-repeat;
         background-size: contain;
         display: block;
@@ -507,7 +507,7 @@
         height: 100%;
       }
       #content-1 .frameshift_balloon {
-        background-image: url('http://runigoswami-dali.imgix.net/content1_frameshiftballoon.png');
+        background-image: url('/img/content1_frameshiftballoon.png');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -523,7 +523,7 @@
         height: 100%;
       }
       #content-1 .berry_balloon {
-        background-image: url('http://runigoswami-dali.imgix.net/cover1_berryballoon.png');
+        background-image: url('/img/cover1_berryballoon.png');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -534,19 +534,19 @@
       /* Content 2*/
 
       #content-2 .baselayer {
-        background-image: url('http://runigoswami-dali.imgix.net/content1_background.png')
+        background-image: url('/img/content1_background.png')
       }
       #content-2 .contentcontainer {}
       /* Content 3 */
 
       #content-3 .baselayer {
-        background-image: url('http://runigoswami-dali.imgix.net/content1_background.png')
+        background-image: url('/img/content1_background.png')
       }
       #content-3 .contentcontainer {}
       /* Content 4*/
 
       #content-4 .baselayer {
-        background-image: url('http://runigoswami-dali.imgix.net/content1_background.png')
+        background-image: url('/img/content1_background.png')
       }
       #content-4 .contentcontainer {
         bottom: 500px;
@@ -747,31 +747,31 @@
           margin-left: 60%;
         }
         #cover-0 .baselayer {
-          background-image: url('http://runigoswami-dali.imgix.net/cover0_layer0.jpg?w=960&h=640&crop=fit');
+          background-image: url('/img/cover0_layer0.jpg?w=960&h=640&crop=fit');
         }
         #cover-0 .frame {
-          background-image: url('http://runigoswami-dali.imgix.net/cover0_layer1.png?w=960&h=640&crop=fit');
+          background-image: url('/img/cover0_layer1.png?w=960&h=640&crop=fit');
         }
         #cover-0 .logo {
-          background-image: url('http://runigoswami-dali.imgix.net/cover0_layer3.png?w=960&h=640&crop=fit');
+          background-image: url('/img/cover0_layer3.png?w=960&h=640&crop=fit');
         }
         #cover-0 .flower {
-          background-image: url('http://runigoswami-dali.imgix.net/cover0_layer2.png?w=960&h=640&crop=fit');
+          background-image: url('/img/cover0_layer2.png?w=960&h=640&crop=fit');
         }
         #cover-2 .baselayer {
-          background-image: url('http://runigoswami-dali.imgix.net/cover2_layer0.jpg?w=960&h=640&crop=fit');
+          background-image: url('/img/cover2_layer0.jpg?w=960&h=640&crop=fit');
         }
         #cover-3 .baselayer {
-          background-image: url('http://runigoswami-dali.imgix.net/cover3_layer0.jpg?w=960&h=640&crop=fit');
+          background-image: url('/img/cover3_layer0.jpg?w=960&h=640&crop=fit');
         }
         #content-1 .berry_balloon {
-          background-image: url('http://runigoswami-dali.imgix.net/cover1_berryballoon.png?w=960&h=640&crop=fit');
+          background-image: url('/img/cover1_berryballoon.png?w=960&h=640&crop=fit');
         }
         #cover-2 .hathi {
-          background-image: url('http://runigoswami-dali.imgix.net/cover2_layer2.png?w=960&h=640&crop=fit,right');
+          background-image: url('/img/cover2_layer2.png?w=960&h=640&crop=fit,right');
         }
         #cover-2 .baselayer {
-          background-image: url('http://runigoswami-dali.imgix.net/cover2_layer0.jpg?w=960&h=640&crop=fit');
+          background-image: url('/img/cover2_layer0.jpg?w=960&h=640&crop=fit');
         }
       }
       @media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {

@@ -152,7 +152,7 @@ h1, h2, h3 {
 /* Placeholder*/
 .cover .placeholder {
   position: relative;
-  background-image: url('http://runigoswami-dali.imgix.net/comingsoon.jpg');
+  background-image: url('/img/comingsoon.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

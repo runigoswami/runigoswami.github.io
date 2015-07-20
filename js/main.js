@@ -39,7 +39,7 @@
     adjustWindow();
   });
   var s = Snap('#runicloud_svg');
-  Snap.load("http://runigoswami-dali.imgix.net/svgs/runicloud.svg", function(f) {
+  Snap.load("/img/svgs/runicloud.svg", function(f) {
     var thoughts = ["#brain", "#soundcloud", "#deathly_hallows", "#paintbrush", "#om", "#skate", "#wave", "#tea", "#mantis_shrimp", "#photos", "#tjhsst", "#play_buttons", "#oxytocin", "#dodecahedron", "#plane_ticket"];
     s.append(f);
     for (i = 0; i < thoughts.length; i++) {
