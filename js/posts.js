@@ -38,7 +38,7 @@
       $slide.height(winH);
       var halfWindowHeight = winH - (winH / 2);
       var onethirdsHeight = (winH) / 3;
-      $('#cover').height(.9 * winH);
+      $('.cover').height(.9 * winH);
       s.refresh($('.cover, .content'));
     }
   }
