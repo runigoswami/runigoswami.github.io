@@ -413,10 +413,8 @@
           position: absolute;
           width: 40%;
           height: 100%;
-          float: left;
           margin-left:15vw;
           margin-right: 40vw;
-          background-position-y: bottom;
         }
         #cover-4 .covercontainer {
           z-index: 250;
@@ -429,12 +427,10 @@
           position: absolute;
           width: 26%;
           height: 100%;
-          float: right;
           margin-left: 70vw;
         }
         #cover-4 .cover-4-element {
           background-position: center center;
-          background-origin: border-box;
           background-repeat: no-repeat;
           background-size: cover;
           width: 100%;
@@ -448,23 +444,14 @@
         }
         #bulbloon {
           background-image: url('/img/cover4_bulbloon.png');
-          background-repeat: no-repeat;
-          background-size: contain;
-          display: block;
-          width: 50%;
-          /*height: 100%;*/
         }
         #apps {
           background-image: url('/img/cover4_apps.png');
         }
         #bloon {
           background-image: url('/img/cover4_bloon.png');
-          background-repeat: no-repeat;
-          background-size: contain;
-          display: block;
-          width: 100%;
-          height: 100%;
         }
+
         /* Content 0*/
 
         #content-0 .baselayer {
