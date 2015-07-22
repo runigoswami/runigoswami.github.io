@@ -6,7 +6,7 @@
                                 line-height: 1.4;
                               }
                               @font-face {
-                                font-family: 'CooperHewitt-Light';
+                                font-family: '/fonts/CooperHewitt-Light';
                                 src: url('CooperHewitt-Light.eot');
                                 src: url('CooperHewitt-Light.eot?#iefix') format('embedded-opentype'), url('CooperHewitt-Light.woff') format('woff'), url('CooperHewitt-Light.ttf') format('truetype'), url('CooperHewitt-Light.svg#webfont') format('svg');
                               }

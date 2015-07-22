@@ -70,13 +70,13 @@
     });
   });
   $(document).ready(function() {
-    var $container = $('#container')
-    $container.isotope({
-      resizable: false,
-      masonry: {
-        columnWidth: $container.width() / 10
-      }
-    });
+    // var $container = $('#container')
+    // $container.isotope({
+    //   resizable: false,
+    //   masonry: {
+    //     columnWidth: $container.width() / 10
+    //   }
+    // });
     $('.filters-button-group').on('click', 'button', function() {
       var filterValue = $(this).attr('data-filter');
       $container.isotope({
