@@ -28,11 +28,12 @@
       s.refresh($('.cover, .content'));
     }
   }
-  // if (!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
-  //   skrollr.init({
-  //     forceHeight: false
-  //   });
-  // }
+  // $('.frame h1').css({
+  //     position:'absolute',
+  //     left: ($(window).width() - $('.frame h1').outerWidth())/2,
+  //     top: ($(window).height() - $('.frame h1').outerHeight())/2
+  // });
+
   causeRepaintsOn = $("h1, h2, h3, p");
   $(window).resize(function() {
     causeRepaintsOn.css("z-index", 1);
