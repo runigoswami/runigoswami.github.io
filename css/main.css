@@ -535,13 +535,13 @@
                               background-image: url('/img/content1_background.png');
                               /*background-color: #ffffff;*/
                             }
-                            #content-1 .swingcontainer {
+                            .swingcontainer {
                               z-index: 80;
                               position: absolute;
                               width: 100%;
                               height: 100%;
                             }
-                            #content-1 .swing {
+                            .swing {
                               background-image: url('/img/content1_runiswing.png');
                               background-position: center center;
                               background-repeat: no-repeat;
@@ -551,7 +551,7 @@
                               /*instead of resizing images -- hacked solution*/
                               height: 66%;
                             }
-                            #content-1 .bubblecontainer {
+                            .bubblecontainer {
                               z-index: 80;
                               position: absolute;
                               padding-top: 20px;
@@ -560,7 +560,7 @@
                               width: 50%;
                               height: 100%;
                             }
-                            #content-1 .speechbubble {
+                            .speechbubble {
                               background-image: url('/img/cover1_speechbubble.png');
                               background-position: center center;
                               background-repeat: no-repeat;
@@ -571,14 +571,14 @@
                               width: 80%;
                               height: 80%;
                             }
-                            #content-1 .albatross_container {
+                            .albatross_container {
                               padding-top: 20px;
                               margin-left: 52%;
                               position: absolute;
                               width: 9%;
                               height: 100%;
                             }
-                            #content-1 .albatross_balloon {
+                            .albatross_balloon {
                               background-image: url('/img/content1_albatrossballoon.png');
                               background-repeat: no-repeat;
                               background-size: contain;
@@ -586,7 +586,7 @@
                               width: 100%;
                               height: 100%;
                             }
-                            #content-1 .frameshift_container {
+                            .frameshift_container {
                               z-index: 200;
                               padding-top: 20px;
                               margin-right: 50%;
@@ -594,7 +594,7 @@
                               width: 50%;
                               height: 100%;
                             }
-                            #content-1 .frameshift_balloon {
+                            .frameshift_balloon {
                               background-image: url('/img/content1_frameshiftballoon.png');
                               background-position: center center;
                               background-repeat: no-repeat;
@@ -603,14 +603,14 @@
                               width: 100%;
                               height: 100%;
                             }
-                            #content-1 .berry_container {
+                            .berry_container {
                               padding-top: 20px;
                               margin-left: 79%;
                               position: absolute;
                               width: 13%;
                               height: 100%;
                             }
-                            #content-1 .berry_balloon {
+                            .berry_balloon {
                               background-image: url('/img/cover1_berryballoon.png');
                               background-position: center center;
                               background-repeat: no-repeat;

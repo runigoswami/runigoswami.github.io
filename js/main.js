@@ -25,14 +25,10 @@
       var onethirdsHeight = (winH) / 3;
       // $('#cover-1').height(2 * onethirdsHeight);
       $('#works').height(.9 * winH);
+      // $('#content-0').height(1.6 * winH);
       s.refresh($('.cover, .content'));
     }
   }
-  // $('.frame h1').css({
-  //     position:'absolute',
-  //     left: ($(window).width() - $('.frame h1').outerWidth())/2,
-  //     top: ($(window).height() - $('.frame h1').outerHeight())/2
-  // });
 
   causeRepaintsOn = $("h1, h2, h3, p");
   $(window).resize(function() {
