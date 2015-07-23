@@ -22,6 +22,11 @@
     }, 100);
   });
 
+  var s = skrollr.init({
+    smoothScrolling: true,
+    forceHeight: false
+  });
+
 
   // adjusts various heights of things and skrollr refresh
   var adjustWindow = function() {
@@ -59,7 +64,7 @@
   });
 
 
-//THIS IS THE ONE THAT WORKS
+  //THIS IS THE ONE THAT WORKS
 
   // $(document).ready(function() {
   //   $('.filters-button-group').on('click', 'button', function() {
@@ -87,46 +92,41 @@
     return hashFilter && decodeURIComponent(hashFilter);
   }
 
-  $(function() {
-    var $grid = $('.grid');
+  var $grid = $('.grid');
 
-    // bind filter button click
-    var $filterButtonGroup = $('.filters-button-group');
-    $filterButtonGroup.on('click', 'button', function() {
-      var filterAttr = $(this).attr('data-filter');
-      // set filter in hash
-      location.hash = 'filter=' + encodeURIComponent(filterAttr);
-    });
-
-    var isIsotopeInit = false;
-
-    function onHashchange() {
-      var hashFilter = getHashFilter();
-      if (!hashFilter && isIsotopeInit) {
-        return;
-      }
-      isIsotopeInit = true;
-      // filter isotope
-      $container.isotope({
-        itemSelector: '.grid-item',
-        layoutMode: 'masonry',
-        // use filterFns
-        filter: filterFns[hashFilter] || hashFilter
-      });
-      // set selected class on button
-      if (hashFilter) {
-        $filterButtonGroup.find('.is-checked').removeClass('is-checked');
-        $filterButtonGroup.find('[data-filter="' + hashFilter + '"]').addClass('is-checked');
-      }
-    }
-
-    $(window).on('hashchange', onHashchange);
-
-    // trigger event handler to init Isotope
-    onHashchange();
-
+  // bind filter button click
+  var $filterButtonGroup = $('.filters-button-group');
+  $filterButtonGroup.on('click', 'button', function() {
+    var filterAttr = $(this).attr('data-filter');
+    // set filter in hash
+    location.hash = 'filter=' + encodeURIComponent(filterAttr);
   });
 
+  var isIsotopeInit = false;
+
+  function onHashchange() {
+    var hashFilter = getHashFilter();
+    if (!hashFilter && isIsotopeInit) {
+      return;
+    }
+    isIsotopeInit = true;
+    // filter isotope
+    $container.isotope({
+      itemSelector: '.grid-item',
+      layoutMode: 'masonry',
+      filter: hashFilter //var filterValue = $(this).attr('data-filter');
+    });
+    // set selected class on button
+    if (hashFilter) {
+      $filterButtonGroup.find('.is-checked').removeClass('is-checked');
+      $filterButtonGroup.find('[data-filter="' + hashFilter + '"]').addClass('is-checked');
+    }
+  }
+
+  $(window).on('hashchange', onHashchange);
+
+  // trigger event handler to init Isotope
+  onHashchange();
 
 
 
