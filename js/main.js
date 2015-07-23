@@ -3,6 +3,7 @@
   $window = $(window);
   $slide = $('.cover, .content');
   $body = $('body');
+  var $container = $('#container');
 
   causeRepaintsOn = $("h1, h2, h3, p");
 
@@ -75,14 +76,11 @@
 
   $window.resize(function() {
     causeRepaintsOn.css("z-index", 1);
-
-    if (!typeof $container === undefined) {
-      $container.isotope({
-        masonry: {
-          columnWidth: $container.width() / 10
-        }
-      });
-    }
+    $container.isotope({
+      masonry: {
+        columnWidth: $container.width() / 10
+      }
+    });
     adjustWindow();
 
   });
