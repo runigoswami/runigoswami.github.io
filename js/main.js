@@ -96,21 +96,73 @@
   });
 
 
-  $(document).ready(function() {
+  // $(document).ready(function() {
+  //   $('.filters-button-group').on('click', 'button', function() {
+  //     var filterValue = $(this).attr('data-filter');
+  //     $container.isotope({
+  //       filter: filterValue
+  //     });
+  //     window.dispatchEvent(new Event('resize'));
+  //   });
+  //   $('.button-group').each(function(i, buttonGroup) {
+  //     var $buttonGroup = $(buttonGroup);
+  //     $buttonGroup.on('click', 'button', function() {
+  //       $buttonGroup.find('.is-checked').removeClass('is-checked');
+  //       $(this).addClass('is-checked');
+  //     });
+  //   });
+  // });
 
-    $('.filters-button-group').on('click', 'button', function() {
-      var filterValue = $(this).attr('data-filter');
+  // Copy pasta from code pen example
+  function getHashFilter() {
+    // get filter=filterName
+    var matches = location.hash.match(/filter=([^&]+)/i);
+    var hashFilter = matches && matches[1];
+    return hashFilter && decodeURIComponent(hashFilter);
+  }
+
+  $(function() {
+    var $grid = $('.grid');
+
+    // bind filter button click
+    var $filterButtonGroup = $('.button-group');
+    $filterButtonGroup.on('click', 'button', function() {
+      var filterAttr = $(this).attr('data-filter');
+      // set filter in hash
+      location.hash = 'filter=' + encodeURIComponent(filterAttr);
+    });
+
+    var isIsotopeInit = false;
+
+    function onHashchange() {
+      var hashFilter = getHashFilter();
+      if (!hashFilter && isIsotopeInit) {
+        return;
+      }
+      isIsotopeInit = true;
+      // filter isotope
       $container.isotope({
-        filter: filterValue
+        itemSelector: '.grid-item',
+        layoutMode: 'masonry',
+        // use filterFns
+        filter: filterFns[hashFilter] || hashFilter
       });
-      window.dispatchEvent(new Event('resize'));
-    });
-    $('.button-group').each(function(i, buttonGroup) {
-      var $buttonGroup = $(buttonGroup);
-      $buttonGroup.on('click', 'button', function() {
-        $buttonGroup.find('.is-checked').removeClass('is-checked');
-        $(this).addClass('is-checked');
-      });
-    });
+      // set selected class on button
+      if (hashFilter) {
+        $filterButtonGroup.find('.is-checked').removeClass('is-checked');
+        $filterButtonGroup.find('[data-filter="' + hashFilter + '"]').addClass('is-checked');
+      }
+    }
+
+    $(window).on('hashchange', onHashchange);
+
+    // trigger event handler to init Isotope
+    onHashchange();
+
   });
+
+
+
+
+
 })(jQuery);
