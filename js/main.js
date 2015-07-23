@@ -43,11 +43,6 @@
   // without this skrollr is jerky
   $window.load(function() {
     $window.trigger('resize');
-    var s = skrollr.init({
-      smoothScrolling: true,
-      forceHeight: false
-    });
-
   });
 
   //fades in once images are all loaded
