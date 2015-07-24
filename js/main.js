@@ -70,7 +70,10 @@
     $('#works').height(.9 * winH);
     // $('#content-0').height(1.6 * winH);
     //s.refresh($('.cover, .content'));
+    
     s.refresh();
   }
+
+
 
 })(jQuery);
