@@ -496,6 +496,7 @@
                                     padding-top: 20px;
                                   }
                                   #content-0 .runicloud {
+                                    z-index:1000;
                                     background-repeat: no-repeat;
                                     background-size: contain;
                                     background-position-x: right;
@@ -511,6 +512,7 @@
                                     width: 100%;
                                   }
                                   #content-0 #runicloud_svg svg {
+                                    z-index: 800;
                                     position: absolute;
                                     top: 0;
                                     right: 0;
@@ -519,6 +521,7 @@
                                     position: relative;
                                   }
                                   #content-0 .textcloud {
+                                    z-index:0;
                                     background-image: url('/img/content0_cloud.png');
                                     background-position: center bottom;
                                     background-repeat: no-repeat;
@@ -552,16 +555,12 @@
                                     white-space:nowrap;
                                     line-height: 7vmin;
                                   }
-                                  /*margin-top: 3.5vh;
-                                margin-left: auto;
-                                margin-right: auto;
-                                margin-bottom: auto;
-                                position: absolute;
-                                top: 0;
-                                left: 0;
-                                bottom: 0;
-                                right: 0;*/
-                                  /* Content 1*/
+                                  .textcloud a:hover {
+                                    color: #5acecf;
+                                  }
+                                  .textcloud a:hover:before {
+                                    width: 100%;
+                                  }
 
                                   #content-1 .baselayer {
                                     background-image: url('/img/content1_background.png');
