@@ -150,7 +150,7 @@ h1, h2, h3 {
 }
 
 /* Placeholder*/
-.cover .placeholder {
+/*.cover .placeholder {
   position: relative;
   background-image: url('/img/comingsoon.jpg');
   background-position: center center;
@@ -158,7 +158,7 @@ h1, h2, h3 {
   background-size: cover;
   height: 100%;
   width: 100%;
-}
+}*/
 
 /* ==========================================================================
 Print styles.
