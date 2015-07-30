@@ -10,6 +10,7 @@ body {
   src: url('CooperHewitt-Light.eot');
   src: url('CooperHewitt-Light.eot?#iefix') format('embedded-opentype'), url('CooperHewitt-Light.woff') format('woff'), url('CooperHewitt-Light.ttf') format('truetype'), url('CooperHewitt-Light.svg#webfont') format('svg');
 }
+
 /*
 * Remove text-shadow in selection highlight: h5bp.com/i
 * These selection rule sets have to be separate.
@@ -24,6 +25,7 @@ body {
   background: #000000;
   text-shadow: none;
 }
+
 /* ==========================================================================
 Chrome Frame prompt
 ========================================================================== */
@@ -34,6 +36,7 @@ Chrome Frame prompt
   color: #000;
   padding: 0.2em 0;
 }
+
 /* ==========================================================================
 Navbar Styling
 ========================================================================== */
@@ -45,7 +48,7 @@ Navbar Styling
   z-index: 99999;
   position: absolute;
   float: right;
-  margin-left:60%;
+  margin-left: 60%;
 }
 #navi ul {
   list-style: none;
@@ -149,16 +152,16 @@ h1, h2, h3 {
   /*padding-top: 106px;*/
 }
 
-/* Placeholder*/
-/*.cover .placeholder {
+.cover .illustration {
   position: relative;
-  background-image: url('/img/comingsoon.jpg');
+  background-image: url('/img/contactbkgd.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
-}*/
+}
+
 
 /* ==========================================================================
 Print styles.
