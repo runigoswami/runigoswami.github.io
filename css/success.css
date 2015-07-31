@@ -1,0 +1,314 @@
+html, button, input, select, textarea {
+  color: #222;
+}
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+@font-face {
+  font-family: 'CooperHewitt-Light';
+  src: url('CooperHewitt-Light.eot');
+  src: url('CooperHewitt-Light.eot?#iefix') format('embedded-opentype'), url('CooperHewitt-Light.woff') format('woff'), url('CooperHewitt-Light.ttf') format('truetype'), url('CooperHewitt-Light.svg#webfont') format('svg');
+}
+
+/*
+* Remove text-shadow in selection highlight: h5bp.com/i
+* These selection rule sets have to be separate.
+* Customize the background color to match your design.
+*/
+
+::-moz-selection {
+  background: #000000;
+  text-shadow: none;
+}
+::selection {
+  background: #000000;
+  text-shadow: none;
+}
+
+/* ==========================================================================
+Chrome Frame prompt
+========================================================================== */
+
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+Navbar Styling
+========================================================================== */
+
+#navi {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: auto;
+  margin-top: 0px;
+  z-index: 99999;
+  position: absolute;
+  float: right;
+  margin-left: 60%;
+}
+#navi ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+  float: right;
+}
+#navi ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#navi ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#navi.align-right ul li {
+  float: right;
+}
+#navi.align-center ul {
+  text-align: center;
+}
+#navi ul li a {
+  color: #292929;
+  text-decoration: none;
+  display: block;
+  padding: 10px 25px;
+  font-family: 'CooperHewitt-Thin', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 12px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+#navi ul li a:hover {
+  color: #f7b19a;
+}
+#navi ul li a:hover:before {
+  width: 100%;
+}
+#navi ul li a:before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 0;
+  background: #f57247;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+#navi ul li.last > a:after, #navi ul li:last-child > a:after {
+  display: none;
+}
+#navi ul li.active a {
+  color: #ffffff;
+}
+#navi ul li.active a:before {
+  width: 100%;
+}
+#navi.align-right li.last > a:after, #navi.align-right li:last-child > a:after {
+  display: block;
+}
+#navi.align-right li:first-child a:after {
+  display: none;
+}
+
+/* ==========================================================================
+Body Styling
+========================================================================== */
+
+body, html {
+  height: 100%;
+  min-height: 100%;
+  background-image: url('/img/contact-success.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  font: 100%/1.5em 'CooperHewitt', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'CooperHewitt', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  margin-top: 0;
+}
+.no-js {
+  padding-top: 106px;
+}
+.frame {
+  background-position: center center;
+  background-position: relative;
+}
+/*.textbkgd {
+  z-index: -100;
+  position: relative;
+  display: block;
+  width: 44vw;
+  height: 20vh;
+  margin-top: 35vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #ffffff;
+  border-offset: 5vw;
+  border-style: solid;
+  border-width: 1.5vw;
+  -webkit-box-shadow: 2px 2px 21px -5px rgba(43, 43, 43, 0.87);
+  -moz-box-shadow: 2px 2px 21px -5px rgba(43, 43, 43, 0.87);
+  box-shadow: 2px 2px 21px -5px rgba(43, 43, 43, 0.87);
+}*/
+.frame h1 {
+  font-family: 'CooperHewitt-Semibold', sans-serif;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(43, 43, 43, 0.57);
+  font-weight: 300;
+  font-size: 4vmin;
+  color: #ffffff;
+  overflow: auto;
+  margin-top: 45vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  padding-top: 2vmin;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.phone {
+  display: none;
+}
+
+/* ==========================================================================
+Media Queries
+========================================================================== */
+
+@media (max-width: 480px) {
+  body, html {
+    height: 100%;
+    min-height: 100%;
+    background-image: url('/img/contact-phone.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    font: 100%/1.5em 'CooperHewitt', sans-serif;
+  }
+
+  .phone {
+    display: block;
+  }
+
+  .phone a {
+    font-family: 'CooperHewitt-Light', sans-serif;
+    font-size: 1.5em;
+    padding: 2vh 2vw;
+    font-weight:100;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 21px -5px rgba(43, 43, 43, 0.87);
+    -moz-box-shadow: 2px 2px 21px -5px rgba(43, 43, 43, 0.87);
+    box-shadow: 2px 2px 21px -5px rgba(43, 43, 43, 0.87);
+  }
+
+  #number {
+    color: #e9582b;
+    background-color: rgba(230, 230, 230, 0.8);
+    margin-top: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  #email {
+    color: #e2dede;
+    background-color: rgba(235,87,30,0.8);
+    letter-spacing: 0.1em;
+    margin-top: 55vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+}
+
+/* ==========================================================================
+Print styles.
+Inlined to avoid required HTTP connection: h5bp.com/r
+========================================================================== */
+
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a, a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+ * Don't show links for images, or javascript/internal links
+ */
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+  tr, img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  @page {
+    margin: 0.5cm;
+  }
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}
