@@ -155,15 +155,15 @@ h1, h2, h3 {
 .no-js {
   padding-top: 106px;
 }
-
 #hire {
   z-index: 500;
   font-size: 62.5%;
   font-family: 'CooperHewitt', sans-serif;
   font-weight: 300;
   color: #d5d5d5;
-  background: rgba(255,255,255, 0.5);
-  margin-top: 20vmin;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  margin-top: 18vmin;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
@@ -172,9 +172,12 @@ h1, h2, h3 {
   left: 0;
   right: 0;
   text-align: center;
-  padding: 5.5vh 0 6vw;
-  width: 50%;
+  padding: 4.5vh 0 6vw;
+  width: 48%;
   max-width: 50vw;
+  -webkit-box-shadow: 2px 2px 21px -5px rgba(43, 43, 43, 0.87);
+  -moz-box-shadow: 2px 2px 21px -5px rgba(43, 43, 43, 0.87);
+  box-shadow: 2px 2px 21px -5px rgba(43, 43, 43, 0.87);
 }
 body section h1 {
   padding-top: 2vh;
@@ -186,7 +189,6 @@ body section h1 {
   color: white;
   font-weight: 500;
 }
-
 form {
   z-index: 500;
   width: 62%;
@@ -195,7 +197,7 @@ form {
 form .field {
   width: 100%;
   position: relative;
-  margin-bottom: 1.5vh;
+  margin-bottom: 1.8vh;
 }
 form .field label {
   text-transform: uppercase;
@@ -214,7 +216,6 @@ form .field label {
   transition: all 333ms ease-in-out;
 }
 form .field label + span {
-  /*font-family: 'SSStandard';*/
   opacity: 0;
   color: white;
   display: block;
@@ -222,15 +223,13 @@ form .field label + span {
   top: 1.5vh;
   left: 7%;
   font-size: 2em;
-  /*text-shadow: 1px 2px 0 #cd6302;*/
   -webkit-transition: all 333ms ease-in-out;
   -moz-transition: all 333ms ease-in-out;
   -o-transition: all 333ms ease-in-out;
   -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-form .field input[type="text"],
-form .field textarea {
+form .field input[type="text"], form .field textarea {
   border: none;
   background: #E8E9EA;
   width: 80.5%;
@@ -240,10 +239,8 @@ form .field textarea {
   color: #313A3D;
   font-size: 1.4em;
   letter-spacing: 0.05em;
-  /*text-transform: uppercase;*/
 }
-form .field input[type="text"]#msg,
-form .field textarea#msg {
+form .field input[type="text"]#msg, form .field textarea#msg {
   height: 6vh;
   resize: none;
   -webkit-transition: all 333ms ease-in-out;
@@ -252,25 +249,18 @@ form .field textarea#msg {
   -ms-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
-form .field input[type="text"]:focus, form .field input[type="text"].focused,
-form .field textarea:focus,
-form .field textarea.focused {
+form .field input[type="text"]:focus, form .field input[type="text"].focused, form .field textarea:focus, form .field textarea.focused {
   outline: none;
 }
-form .field input[type="text"]:focus#msg, form .field input[type="text"].focused#msg,
-form .field textarea:focus#msg,
-form .field textarea.focused#msg {
+form .field input[type="text"]:focus#msg, form .field input[type="text"].focused#msg, form .field textarea:focus#msg, form .field textarea.focused#msg {
   padding-bottom: 15vh;
 }
-form .field input[type="text"]:focus + label, form .field input[type="text"].focused + label,
-form .field textarea:focus + label,
-form .field textarea.focused + label {
+form .field input[type="text"]:focus + label, form .field input[type="text"].focused + label, form .field textarea:focus + label, form .field textarea.focused + label {
   width: 18%;
   background: #e9582b;
   color: #313A3D;
 }
-form .field input[type="text"].focused + label,
-form .field textarea.focused + label {
+form .field input[type="text"].focused + label, form .field textarea.focused + label {
   color: #e9582b;
 }
 form .field:hover label {
@@ -279,7 +269,9 @@ form .field:hover label {
   font-size: 1.4em;
   color: white;
 }
+
 /*send button */
+
 form input[type="submit"] {
   background: #e9582b;
   color: white;
@@ -306,8 +298,71 @@ form input[type="submit"]:focus {
   outline: none;
   background: #cd6302;
 }
+.phone {
+  display: none;
+}
 
+/* ==========================================================================
+Media Queries
+========================================================================== */
 
+@media (max-width: 480px) {
+  body, html {
+    height: 100%;
+    min-height: 100%;
+    background-image: url('/img/contact-phone.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    font: 100%/1.5em 'CooperHewitt', sans-serif;
+  }
+  .not-phone {
+    display: none;
+  }
+  .phone {
+    display: block;
+  }
+
+  .phone a {
+    font-family: 'CooperHewitt-Light', sans-serif;
+    font-size: 1.5em;
+    padding: 2vh 2vw;
+    font-weight:100;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 21px -5px rgba(43, 43, 43, 0.87);
+    -moz-box-shadow: 2px 2px 21px -5px rgba(43, 43, 43, 0.87);
+    box-shadow: 2px 2px 21px -5px rgba(43, 43, 43, 0.87);
+  }
+
+  #number {
+    color: #e9582b;
+    background-color: rgba(230, 230, 230, 0.8);
+    margin-top: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  #email {
+    color: #e2dede;
+    background-color: rgba(235,87,30,0.8);
+    letter-spacing: 0.1em;
+    margin-top: 55vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+}
 
 /* ==========================================================================
 Print styles.

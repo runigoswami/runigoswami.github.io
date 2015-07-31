@@ -38,33 +38,36 @@
       </ul>
     </nav>
 
-    <!-- <div id="biplane" class="cover"> -->
-      <section id="hire">
-        <h1>Contact Me</h1>
-          <form>
-          <div class="field name-box">
-            <input type="text" id="name" placeholder="Hi! My name is..." />
-            <label for="name">Name</label>
-            <span class="glyphicon glyphicon-ok"></span>
-          </div>
+    <section id="hire" class="not-phone">
+      <h1>Contact Me</h1>
+      <form>
+        <div class="field name-box not-phone">
+          <input type="text" id="name" placeholder="Hi! My name is..." />
+          <label for="name">Name</label>
+          <span class="glyphicon glyphicon-ok"></span>
+        </div>
 
-          <div class="field email-box">
-            <input type="text" id="email" placeholder="name@email.com" />
-            <label for="email">Email</label>
-            <span class="glyphicon glyphicon-ok"></span>
-          </div>
+        <div class="field email-box not-phone">
+          <input type="text" id="email" placeholder="name@email.com" class="not-phone" />
+          <label class="not-phone" for="email">Email</label>
+          <span class="glyphicon glyphicon-ok"></span>
+        </div>
 
-          <div class="field msg-box">
-            <textarea id="msg" rows="4" placeholder="Your message goes here..." /></textarea>
-            <label for="msg">Message</label>
-            <span class="glyphicon glyphicon-ok"></span>
-          </div>
+        <div class="field msg-box">
+          <textarea id="msg" rows="4" placeholder="Your message goes here..." class="not-phone" /></textarea>
+          <label class="not-phone" for="msg">Message </label>
+          <span class="glyphicon glyphicon-ok"></span>
+        </div>
 
-          <input class="button" type="submit" value="Send" />
-        </form>
-      </section>
-      <!-- <div class="illustration"> -->
-      <!-- </div> -->
+        <input class="button not-phone" type="submit" value="Send" />
+      </form>
+    </section>
+
+    <div class="phone">
+      <a href="mailto:runigoswami@gmail.com" id="email">runigoswami@gmail.com</a>
+      <!-- Cross-platform compatible (Android + iPhone) -->
+      <a href="tel://1-571-345-8928" id="number" >+1 (571) 345-8928</a>
+    </div>
     </div>
 
   </main>
