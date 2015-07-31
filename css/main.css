@@ -521,7 +521,6 @@
                                       position: relative;
                                     }
                                     #content-0 .textcloud {
-                                      z-index: 0;
                                       background-image: url('/img/content0_cloud.png');
                                       background-position: center bottom;
                                       background-repeat: no-repeat;

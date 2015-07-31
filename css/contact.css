@@ -138,7 +138,11 @@ Body Styling
 body, html {
   height: 100%;
   min-height: 100%;
-  background-color: #000000;
+  background-image: url('/img/contactbkgd.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
   font: 100%/1.5em 'CooperHewitt', sans-serif;
 }
 h1, h2, h3 {
@@ -149,42 +153,42 @@ h1, h2, h3 {
   margin-top: 0;
 }
 .no-js {
-  /*padding-top: 106px;*/
+  padding-top: 106px;
 }
 
-.cover .illustration {
-  position: relative;
-  z-index: 0;
-  background-image: url('/img/contactbkgd.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-}
-
-body section {
+#hire {
   z-index: 500;
   font-size: 62.5%;
   font-family: 'CooperHewitt', sans-serif;
   font-weight: 300;
   color: #d5d5d5;
-  background: rgb(255,255,255);
-  margin: 6vh auto 6vw;
+  background: rgba(255,255,255, 0.5);
+  margin-top: 20vmin;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   text-align: center;
   padding: 5.5vh 0 6vw;
-  width: 80%;
+  width: 50%;
   max-width: 50vw;
 }
 body section h1 {
+  padding-top: 2vh;
   margin-bottom: 4vh;
   font-size: 4em;
   text-transform: uppercase;
   font-family: 'CooperHewitt-Semibold', sans-serif;
+  background: #e9582b;
+  color: white;
   font-weight: 500;
 }
 
 form {
+  z-index: 500;
   width: 62%;
   margin: 0 auto;
 }
