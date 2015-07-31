@@ -40,21 +40,23 @@
 
     <section id="hire" class="not-phone">
       <h1>Contact Me</h1>
-      <form>
+      <form action="https://runi-app.herokuapp.com/send" method="post">
         <div class="field name-box not-phone">
-          <input type="text" id="name" placeholder="Hi! My name is..." />
+          <input type="text" id="name" name="name" placeholder="Hi! My name is..." />
           <label for="name">Name</label>
           <span class="glyphicon glyphicon-ok"></span>
         </div>
 
         <div class="field email-box not-phone">
-          <input type="text" id="email" placeholder="name@email.com" class="not-phone" />
+          <input type="text" id="email" name="email" placeholder="name@email.com" class="not-phone" />
           <label class="not-phone" for="email">Email</label>
           <span class="glyphicon glyphicon-ok"></span>
         </div>
 
+        <input type="text" name="subject" id="subject"/>
+
         <div class="field msg-box">
-          <textarea id="msg" rows="4" placeholder="Your message goes here..." class="not-phone" /></textarea>
+          <textarea id="msg" rows="4" name="message" placeholder="Your message goes here..." class="not-phone" /></textarea>
           <label class="not-phone" for="msg">Message </label>
           <span class="glyphicon glyphicon-ok"></span>
         </div>

@@ -301,6 +301,9 @@ form input[type="submit"]:focus {
 .phone {
   display: none;
 }
+form input[type="text"]#subject {
+  display: none;
+}
 
 /* ==========================================================================
 Media Queries
