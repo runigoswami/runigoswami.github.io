@@ -214,15 +214,15 @@ form .field label {
   transition: all 333ms ease-in-out;
 }
 form .field label + span {
-  font-family: 'SSStandard';
+  /*font-family: 'SSStandard';*/
   opacity: 0;
   color: white;
   display: block;
   position: absolute;
-  top: 2vh;
+  top: 1.5vh;
   left: 7%;
-  font-size: 2.5em;
-  text-shadow: 1px 2px 0 #cd6302;
+  font-size: 2em;
+  /*text-shadow: 1px 2px 0 #cd6302;*/
   -webkit-transition: all 333ms ease-in-out;
   -moz-transition: all 333ms ease-in-out;
   -o-transition: all 333ms ease-in-out;
