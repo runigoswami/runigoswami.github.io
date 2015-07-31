@@ -42,7 +42,7 @@ Navbar Styling
 ========================================================================== */
 
 #navi {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
   width: auto;
   margin-top: 0px;
   z-index: 99999;
@@ -79,7 +79,7 @@ Navbar Styling
   text-align: center;
 }
 #navi ul li a {
-  color: #ffffff;
+  color: #292929;
   text-decoration: none;
   display: block;
   padding: 10px 25px;
@@ -95,7 +95,7 @@ Navbar Styling
   transition: color .25s;
 }
 #navi ul li a:hover {
-  color: #666666;
+  color: #f7b19a;
 }
 #navi ul li a:hover:before {
   width: 100%;
@@ -108,7 +108,7 @@ Navbar Styling
   bottom: 0;
   height: 4px;
   width: 0;
-  background: #5acecf;
+  background: #f57247;
   -webkit-transition: width .25s;
   -moz-transition: width .25s;
   -ms-transition: width .25s;
@@ -119,7 +119,7 @@ Navbar Styling
   display: none;
 }
 #navi ul li.active a {
-  color: #5acecf;
+  color: #ffffff;
 }
 #navi ul li.active a:before {
   width: 100%;
