@@ -214,7 +214,7 @@ form .field label {
   transition: all 333ms ease-in-out;
 }
 form .field label + span {
-  /*font-family: 'SSStandard';*/
+  font-family: 'SSStandard';
   opacity: 0;
   color: white;
   display: block;
@@ -240,11 +240,11 @@ form .field textarea {
   color: #313A3D;
   font-size: 1.4em;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 form .field input[type="text"]#msg,
 form .field textarea#msg {
-  height: 2vh;
+  height: 6vh;
   resize: none;
   -webkit-transition: all 333ms ease-in-out;
   -moz-transition: all 333ms ease-in-out;
@@ -287,6 +287,7 @@ form input[type="submit"] {
   border: none;
   text-transform: uppercase;
   position: relative;
+  margin-top: 3vh;
   padding: 2vh 2vw;
   font-size: 1.4em;
   letter-spacing: 0.1em;
