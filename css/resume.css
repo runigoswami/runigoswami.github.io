@@ -160,6 +160,61 @@ h1, h2, h3 {
   width: 100%;
 }
 
+#copyright {
+  margin-top: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-family: 'CooperHewitt-Light', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #ffffff;
+  text-align: center;
+}
+.social {
+  display: inline-block;
+  width: 5vmin;
+  height: 5vmin;
+  margin: 0vh 0.7vmax;
+  background-color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#github{
+  background-image: url('/img/github-icon.png');
+}
+#facebook{
+  background-image: url('/img/facebook-icon.png');
+}
+#linkedin{
+  background-image: url('/img/linkedin-icon.png');
+}
+#youtube{
+  background-image: url('/img/youtube-icon.png');
+}
+#soundcloud{
+  background-image: url('/img/soundcloud-icon.png');
+}
+.footerlinks {
+  padding-top: 10vh;
+}
+footer {
+  background-color: #222222;
+  height: 40vh;
+  position: relative;
+}
 /* ==========================================================================
 Print styles.
 Inlined to avoid required HTTP connection: h5bp.com/r
