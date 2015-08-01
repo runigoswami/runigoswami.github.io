@@ -28,8 +28,8 @@
   if (!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
     function adjustWindow() {
       var s = skrollr.init({
-        render: function(data) {},
-        smoothScrolling: true
+        smoothScrolling: true,
+        forceHeight: false
       });
       winH = $window.height();
       if (winH <= 450) {
