@@ -138,11 +138,7 @@ Body Styling
 body, html {
   height: 100%;
   min-height: 100%;
-  background-image: url('/img/contact-success.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+  background-color: #000000;
   font: 100%/1.5em 'CooperHewitt', sans-serif;
 }
 h1, h2, h3 {
@@ -154,6 +150,17 @@ h1, h2, h3 {
 }
 .no-js {
   padding-top: 106px;
+}
+
+/* Placeholder*/
+.cover .placeholder {
+  position: relative;
+  background-image: url('/img/contact-success.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 .frame {
   background-position: center center;
