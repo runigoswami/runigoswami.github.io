@@ -151,7 +151,9 @@ h1, h2, h3 {
 .no-js {
   padding-top: 106px;
 }
+
 /* Placeholder*/
+
 .cover .placeholder {
   position: relative;
   background-image: url('/img/contactbkgd.jpg');
@@ -310,27 +312,46 @@ form input[type="submit"]:focus {
 form input[type="text"]#subject {
   display: none;
 }
-#copyright {
-  margin-top: 25vh;
+#thanks {
+  margin-top: 3vh;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
-  position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   font-family: 'CooperHewitt-Light', sans-serif;
   font-weight: 400;
-  font-size: 1em;
-  color: #ffffff;
+  font-size: 0.75em;
+  color: #b8b8b8;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+#copyright {
+  display: inline-block;
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-family: 'CooperHewitt-Light', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1em;
+  color: #5acecf;
+  text-align: center;
+  letter-spacing: 0.1em;
 }
 .social {
   display: inline-block;
   width: 5vmin;
   height: 5vmin;
   margin: 0vh 0.7vmax;
+  opacity: 0.5;
   background-color: #ffffff;
   text-align: center;
   overflow: hidden;
@@ -342,19 +363,19 @@ form input[type="text"]#subject {
   background-repeat: no-repeat;
   background-size: contain;
 }
-#github{
+#github {
   background-image: url('/img/github-icon.png');
 }
-#facebook{
+#facebook {
   background-image: url('/img/facebook-icon.png');
 }
-#linkedin{
+#linkedin {
   background-image: url('/img/linkedin-icon.png');
 }
-#youtube{
+#youtube {
   background-image: url('/img/youtube-icon.png');
 }
-#soundcloud{
+#soundcloud {
   background-image: url('/img/soundcloud-icon.png');
 }
 .footerlinks {
@@ -362,9 +383,10 @@ form input[type="text"]#subject {
 }
 footer {
   background-color: #222222;
-  height: 40vh;
+  height: 45vh;
   position: relative;
 }
+
 /* ==========================================================================
 Media Queries
 ========================================================================== */
@@ -386,18 +408,16 @@ Media Queries
   .phone {
     display: block;
   }
-
   .phone a {
     font-family: 'CooperHewitt-Light', sans-serif;
     font-size: 1.5em;
     padding: 2vh 2vw;
-    font-weight:100;
+    font-weight: 100;
     text-align: center;
     -webkit-box-shadow: 2px 2px 21px -5px rgba(43, 43, 43, 0.87);
     -moz-box-shadow: 2px 2px 21px -5px rgba(43, 43, 43, 0.87);
     box-shadow: 2px 2px 21px -5px rgba(43, 43, 43, 0.87);
   }
-
   #number {
     color: #e9582b;
     background-color: rgba(230, 230, 230, 0.8);
@@ -410,10 +430,9 @@ Media Queries
     left: 0;
     right: 0;
   }
-
   #email {
     color: #e2dede;
-    background-color: rgba(235,87,30,0.8);
+    background-color: rgba(235, 87, 30, 0.8);
     letter-spacing: 0.1em;
     margin-top: 55vh;
     margin-left: auto;
@@ -424,7 +443,6 @@ Media Queries
     left: 0;
     right: 0;
   }
-
 }
 
 /* ==========================================================================
