@@ -149,16 +149,34 @@ h1, h2, h3 {
   padding-top: 106px;
 }
 
-/* Placeholder*/
-.cover .placeholder {
+#resume .baselayer {
+  background-image: url('/img/resume_ocean.jpg');
   position: relative;
-  background-image: url('/img/comingsoon.jpg');
+  z-index: 0;
+  position: relative;
   background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   height: 100%;
   width: 100%;
 }
+#resume .octopus-container {
+  z-index: 50;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#ockintopuss {
+  background-image: url('/img/ockintopuss.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
 
 #thanks {
   margin-top: 3vh;
