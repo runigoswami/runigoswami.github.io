@@ -29,7 +29,7 @@ After a lot of back and forth with the professors, I finally landed on a modern 
 
 The rest of the website design fell into place fairly quickly because we decided to use an off-the-shelf Squarespace template given the time crunch. We used a little bit of custom css and javascript to place low poly overlays on the image headers and to replace the landing image with random videos of the professors' works.
 
-![vcl_logo](/img/vcl.jpg  "site design")
+![vcl](/img/VCL.jpg  "site design")
 ######Final Site Design
 
 #####Takeaways
