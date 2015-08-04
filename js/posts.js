@@ -39,6 +39,7 @@
       var halfWindowHeight = winH - (winH / 2);
       var onethirdsHeight = (winH) / 3;
       $('.cover').height(.9 * winH);
+      $('#vcl-cover').height(halfWindowHeight);
       s.refresh($('.cover, .content'));
     }
   }
