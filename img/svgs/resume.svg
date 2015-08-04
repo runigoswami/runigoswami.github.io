@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 612 1296" style="enable-background:new 0 0 612 1296;" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 -252 612 1296" style="enable-background:new 0 -252 612 1296;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
 	.st1{fill:#63C7CA;}
@@ -9,180 +9,267 @@
 	.st3{font-size:23px;}
 	.st4{font-family:'CooperHewitt-Medium';}
 	.st5{font-size:13px;}
-	.st6{letter-spacing:1;}
-	.st7{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
-	.st8{fill:#6D6E71;}
-	.st9{font-size:10.4621px;}
-	.st10{font-size:9.1191px;}
-	.st11{font-size:8.2072px;}
-	.st12{font-size:7.2953px;}
-	.st13{font-size:8px;}
-	.st14{font-size:9.4159px;}
-	.st15{font-size:9px;}
-	.st16{font-family:'CooperHewitt-Book';}
-	.st17{font-size:10px;}
-	.st18{font-family:'CooperHewitt-Light';}
-	.st19{fill:none;}
-	.st20{font-size:11px;}
-	.st21{font-size:7px;}
+	.st6{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st7{fill:#6D6E71;}
+	.st8{font-size:10.4621px;}
+	.st9{font-size:9.1191px;}
+	.st10{font-size:8.2072px;}
+	.st11{font-size:7.2953px;}
+	.st12{font-size:8px;}
+	.st13{font-size:9.4159px;}
+	.st14{font-size:9px;}
+	.st15{font-family:'CooperHewitt-Book';}
+	.st16{font-size:10px;}
+	.st17{font-family:'CooperHewitt-Light';}
+	.st18{fill:none;}
+	.st19{font-size:11px;}
+	.st20{enable-background:new    ;}
+	.st21{fill:#5ACECF;}
+	.st22{font-size:7px;}
+	.st23{opacity:0;fill:#FFFFFF;}
 </style>
-<rect x="0.2" class="st0" width="611.5" height="1296"/>
-<text transform="matrix(1 0 0 1 216.0114 50.2954)" class="st1 st2 st3">RUNI GOSWAMI</text>
-<g>
-	<text transform="matrix(1 0 0 1 215.0039 145.9486)" class="st1 st4 st5 st6">EXPERIENCE</text>
-</g>
-<g>
-	<text transform="matrix(1 0 0 1 215.0039 837.0376)" class="st1 st4 st5 st6">EDUCATION</text>
-</g>
-<g>
-	<text transform="matrix(1 0 0 1 215.0039 1145.1006)" class="st1 st4 st5 st6">SKILLS </text>
-</g>
-<g>
-	<text transform="matrix(1 0 0 1 69.3438 1145.1001)" class="st1 st4 st5 st6">LANGUAGES</text>
-</g>
-<line class="st7" x1="67.3" y1="832" x2="189.3" y2="832"/>
-<line class="st7" x1="67.3" y1="141.6" x2="189.3" y2="141.6"/>
-<line class="st7" x1="340" y1="141.6" x2="543.4" y2="141.6"/>
-<line class="st7" x1="340" y1="832" x2="543.4" y2="832"/>
-<line class="st7" x1="298" y1="1141" x2="543.4" y2="1141"/>
-<text transform="matrix(1 0 0 1 67.3423 167.918)"><tspan x="0" y="0" class="st8 st2 st9">LEAD DESIGNER</tspan><tspan x="0" y="12.9" class="st8 st4 st10">DALI Lab</tspan><tspan x="0" y="25.9" class="st1 st4 st10" style="text-decoration: underline;">www.dali.dartmouth.edu</tspan><tspan x="0" y="38.8" class="st8 st4 st10">Dartmouth College</tspan><tspan x="0" y="50.7" class="st8 st4 st11">2013 — Present</tspan></text>
-<text transform="matrix(1 0 0 1 67.3423 394.9099)"><tspan x="0" y="0" class="st8 st2 st9">TEACHING ASSISTANT </tspan><tspan x="0" y="11.3" class="st8 st4 st10">Computer Science Department</tspan><tspan x="0" y="22.6" class="st8 st4 st10">Dartmouth College</tspan><tspan x="0" y="33.9" class="st8 st4 st11">2012 — 2014</tspan></text>
-<text transform="matrix(1 0 0 1 67.3423 454.2511)"><tspan x="0" y="0" class="st8 st2 st9">RESEARCH INTERN</tspan><tspan x="0" y="11.3" class="st8 st4 st10">Leibowitz Lab</tspan><tspan x="0" y="22.6" class="st8 st4 st10">Rockefeller University</tspan><tspan x="0" y="32.4" class="st8 st4 st12">2011</tspan></text>
-<text transform="matrix(1 0 0 1 67.3423 689.2505)"><tspan x="0" y="0" class="st8 st2 st9">RESEARCH ASSISTANT</tspan><tspan x="0" y="11.3" class="st8 st4 st10">Brain Imaging Lab</tspan><tspan x="0" y="22.6" class="st8 st4 st10">Dartmouth Hitchcock </tspan><tspan x="0" y="33.9" class="st8 st4 st10">Medical Center</tspan><tspan x="0" y="43.7" class="st8 st4 st11">2010</tspan></text>
-<text transform="matrix(1 0 0 1 67.3423 778.5844)"><tspan x="0" y="0" class="st8 st2 st9">ILLUSTRATOR </tspan><tspan x="0" y="12.6" class="st8 st2 st9">&amp; GRAPHIC DESIGNER</tspan><tspan x="0" y="23.9" class="st8 st4 st10">Freelance</tspan><tspan x="0" y="33.7" class="st8 st4 st11">2008 — Present</tspan></text>
-<g>
-</g>
-<text transform="matrix(1 0 0 1 67.3423 509.478)"><tspan x="0" y="0" class="st8 st2 st9">DESIGN STAFF</tspan><tspan x="0" y="11.3" class="st8 st4 st10">The Dartmouth</tspan><tspan x="0" y="21.1" class="st8 st4 st11">2010</tspan></text>
-<text transform="matrix(1 0 0 1 67.3423 624.2512)"><tspan x="0" y="0" class="st8 st2 st9">WEBMASTER</tspan><tspan x="0" y="11.3" class="st8 st4 st10">Dartmouth Figure Skating</tspan><tspan x="0" y="22.6" class="st1 st4 st13" style="text-decoration: underline;">http://www.dartmouth.edu/~skating/</tspan><tspan x="0" y="32.4" class="st8 st4 st11">2010 — 2011</tspan></text>
-<text transform="matrix(1 0 0 1 67.3423 857.8184)"><tspan x="0" y="0" class="st8 st2 st9">DARTMOUTH COLLEGE </tspan><tspan x="0" y="11.3" class="st8 st4 st14">MS in Computer Science</tspan><tspan x="0" y="22.1" class="st8 st4 st15">June 2015</tspan></text>
-<text transform="matrix(1 0 0 1 67.3423 986.9189)"><tspan x="0" y="0" class="st8 st2 st9">DARTMOUTH COLLEGE</tspan><tspan x="0" y="11.3" class="st8 st4 st14">AB in Neuroscience</tspan><tspan x="0" y="22.1" class="st8 st4 st15">Minors in Spanish &amp; Digital Arts</tspan><tspan x="0" y="32.9" class="st8 st4 st15">June 2013</tspan></text>
-<text transform="matrix(1 0 0 1 67.3423 1097.9189)"><tspan x="0" y="0" class="st8 st2 st9">TJHSST</tspan><tspan x="0" y="11.3" class="st8 st4 st14">Alexandria, VA</tspan><tspan x="0" y="22.1" class="st8 st4 st15">June 2009</tspan></text>
-<g>
-	<circle class="st1" cx="333.2" cy="1166.4" r="5.4"/>
-	<circle class="st1" cx="317.2" cy="1166.4" r="5.4"/>
-	<circle class="st1" cx="301.1" cy="1166.4" r="5.4"/>
-	<circle class="st1" cx="349.1" cy="1166.4" r="5.4"/>
-	<circle class="st1" cx="365" cy="1166.4" r="5.4"/>
-</g>
-<g>
-	<circle class="st1" cx="333.2" cy="1185.9" r="5.4"/>
-	<circle class="st1" cx="317.2" cy="1185.9" r="5.4"/>
-	<circle class="st1" cx="301.1" cy="1185.9" r="5.4"/>
-	<circle class="st1" cx="349.1" cy="1185.9" r="5.4"/>
-	<circle class="st1" cx="365" cy="1185.9" r="5.4"/>
-</g>
-<circle class="st1" cx="333.2" cy="1205.3" r="5.4"/>
-<circle class="st1" cx="317.2" cy="1205.3" r="5.4"/>
-<circle class="st1" cx="301.1" cy="1205.3" r="5.4"/>
-<circle class="st1" cx="349.1" cy="1205.3" r="5.4"/>
-<circle class="st1" cx="365" cy="1205.3" r="5.4"/>
-<g>
-	<circle class="st1" cx="333.2" cy="1223.7" r="5.4"/>
-	<circle class="st1" cx="317.2" cy="1223.7" r="5.4"/>
-	<circle class="st1" cx="301.1" cy="1223.7" r="5.4"/>
-	<circle class="st1" cx="349.1" cy="1223.7" r="5.4"/>
-	<circle class="st1" cx="365" cy="1223.7" r="5.4"/>
-</g>
-<text transform="matrix(1 0 0 1 215.6768 1170.7593)" class="st16 st17">PHOTOSHOP</text>
-<text transform="matrix(1 0 0 1 215.6768 1189.8401)" class="st16 st17">ILLUSTRATOR</text>
-<text transform="matrix(1 0 0 1 215.6768 1208.9208)" class="st16 st17">MAYA</text>
-<text transform="matrix(1 0 0 1 215.6768 1228.0016)" class="st16 st17">PROCESSING</text>
-<text transform="matrix(1 0 0 1 215.6768 1247.0822)" class="st16 st17">INDESIGN</text>
-<text transform="matrix(1 0 0 1 215.6768 1266.163)" class="st16 st17">3D PRINTING</text>
-<text transform="matrix(1 0 0 1 69.4746 1170.7593)" class="st16 st17">ENGLISH</text>
-<text transform="matrix(1 0 0 1 69.4746 1189.978)" class="st16 st17">BENGALI</text>
-<text transform="matrix(1 0 0 1 69.4746 1209.645)" class="st16 st17">SPANISH</text>
-<g>
-	<circle class="st1" cx="507.2" cy="1166.4" r="5.4"/>
-	<circle class="st1" cx="491.2" cy="1166.4" r="5.4"/>
-	<circle class="st1" cx="475.2" cy="1166.4" r="5.4"/>
-	<circle class="st1" cx="523.1" cy="1166.4" r="5.4"/>
-	<circle class="st1" cx="539.1" cy="1166.4" r="5.4"/>
-</g>
-<g>
-	<circle class="st1" cx="507.2" cy="1185.9" r="5.4"/>
-	<circle class="st1" cx="491.2" cy="1185.9" r="5.4"/>
-	<circle class="st1" cx="475.2" cy="1185.9" r="5.4"/>
-	<circle class="st8" cx="523.1" cy="1185.9" r="5.4"/>
-	<circle class="st8" cx="539.1" cy="1185.9" r="5.4"/>
-</g>
-<g>
-	<circle class="st1" cx="333.2" cy="1242.9" r="5.4"/>
-	<circle class="st1" cx="317.3" cy="1242.9" r="5.4"/>
-	<circle class="st1" cx="301.2" cy="1242.9" r="5.4"/>
-	<circle class="st8" cx="349.2" cy="1242.9" r="5.4"/>
-	<circle class="st8" cx="365.1" cy="1242.9" r="5.4"/>
-</g>
-<circle class="st1" cx="333.2" cy="1262.2" r="5.4"/>
-<circle class="st1" cx="317.3" cy="1262.2" r="5.4"/>
-<circle class="st1" cx="301.2" cy="1262.2" r="5.4"/>
-<circle class="st1" cx="349.2" cy="1262.2" r="5.4"/>
-<circle class="st8" cx="365.1" cy="1262.2" r="5.4"/>
-<circle class="st1" cx="507.2" cy="1205.3" r="5.4"/>
-<circle class="st1" cx="491.2" cy="1205.3" r="5.4"/>
-<circle class="st1" cx="475.2" cy="1205.3" r="5.4"/>
-<circle class="st1" cx="523.1" cy="1205.3" r="5.4"/>
-<circle class="st1" cx="539.1" cy="1205.3" r="5.4"/>
-<circle class="st8" cx="507.2" cy="1242.9" r="5.4"/>
-<circle class="st1" cx="491.2" cy="1242.9" r="5.4"/>
-<circle class="st1" cx="475.2" cy="1242.9" r="5.4"/>
-<circle class="st8" cx="523.1" cy="1242.9" r="5.4"/>
-<circle class="st8" cx="539.1" cy="1242.9" r="5.4"/>
-<circle class="st1" cx="507.2" cy="1262.2" r="5.4"/>
-<circle class="st1" cx="491.2" cy="1262.2" r="5.4"/>
-<circle class="st1" cx="475.2" cy="1262.2" r="5.4"/>
-<circle class="st1" cx="523.1" cy="1262.2" r="5.4"/>
-<circle class="st8" cx="539.1" cy="1262.2" r="5.4"/>
-<circle class="st8" cx="507.2" cy="1223.7" r="5.4"/>
-<circle class="st1" cx="491.2" cy="1223.7" r="5.4"/>
-<circle class="st1" cx="475.2" cy="1223.7" r="5.4"/>
-<circle class="st8" cx="523.1" cy="1223.7" r="5.4"/>
-<circle class="st8" cx="539.1" cy="1223.7" r="5.4"/>
-<text transform="matrix(1 0 0 1 389.7041 1170.7593)"><tspan x="0" y="0" class="st16 st17">HTM</tspan><tspan x="19.6" y="0" class="st16 st17">L</tspan><tspan x="25.5" y="0" class="st16 st17">/</tspan><tspan x="29.4" y="0" class="st16 st17">CSS</tspan></text>
-<text transform="matrix(1 0 0 1 389.7041 1189.6102)" class="st16 st17">JAVASCRIPT</text>
-<text transform="matrix(1 0 0 1 389.7041 1208.4612)" class="st16 st17">JAVA</text>
-<text transform="matrix(1 0 0 1 389.7041 1227.3121)" class="st16 st17">C++</text>
-<text transform="matrix(1 0 0 1 389.7041 1246.1628)" class="st16 st17">MATLAB</text>
-<text transform="matrix(1 0 0 1 389.7041 1266.1627)" class="st16 st17">GIT</text>
-<g>
-	<text transform="matrix(1 0 0 1 67.3418 42.4901)" class="st1 st16 st17">WEBSITE</text>
-	<text transform="matrix(1 0 0 1 67.3418 55.4872)" class="st18 st17">runigoswami.com</text>
-</g>
-<g>
+<g id="Layer_1">
+	<rect x="0.2" y="-252" class="st0" width="611.5" height="1296"/>
+	<text transform="matrix(1 0 0 1 216.0114 -201.7046)" class="st1 st2 st3">RUNI GOSWAMI</text>
 	<g>
-		<text transform="matrix(1 0 0 1 67.3418 75.8933)" class="st1 st16 st17">CELL PHONE</text>
+		<text transform="matrix(1 0 0 1 215.0039 -106.0514)" class="st1 st4 st5">EXPERIENCE</text>
 	</g>
-	<text transform="matrix(1 0 0 1 67.3418 88.8904)" class="st18 st17">+1(571) 345 - 8928</text>
-</g>
-<g>
 	<g>
-		<text transform="matrix(1 0 0 1 67.3418 109.7967)" class="st1 st16 st17">EMAIL</text>
+		<text transform="matrix(1 0 0 1 215.0039 585.0376)" class="st1 st4 st5">EDUCATION</text>
 	</g>
-	<text transform="matrix(1 0 0 1 67.3418 121.7933)" class="st18 st17">runigoswami@gmail.com</text>
+	<g>
+		<text transform="matrix(1 0 0 1 215.0039 893.1006)" class="st1 st4 st5">SKILLS </text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 69.3438 893.1001)" class="st1 st4 st5">LANGUAGES</text>
+	</g>
+	<line class="st6" x1="67.3" y1="580" x2="189.3" y2="580"/>
+	<line class="st6" x1="67.3" y1="-110.4" x2="189.3" y2="-110.4"/>
+	<line class="st6" x1="340" y1="-110.4" x2="543.4" y2="-110.4"/>
+	<line class="st6" x1="340" y1="580" x2="543.4" y2="580"/>
+	<line class="st6" x1="298" y1="889" x2="543.4" y2="889"/>
+	<text transform="matrix(1 0 0 1 67.3423 -84.082)" class="st7 st2 st8">LEAD DESIGNER</text>
+	<text transform="matrix(1 0 0 1 67.3423 -71.182)" class="st7 st4 st9">DALI Lab</text>
+	<text transform="matrix(1 0 0 1 67.3423 -58.182)" class="st1 st4 st9" style="text-decoration: underline;">www.dali.dartmouth.edu</text>
+	<text transform="matrix(1 0 0 1 67.3423 -45.282)" class="st7 st4 st9">Dartmouth College</text>
+	<text transform="matrix(1 0 0 1 67.3423 -33.382)" class="st7 st4 st10">2013 — Present</text>
+	<text transform="matrix(1 0 0 1 67.3423 142.9099)" class="st7 st2 st8">TEACHING ASSISTANT </text>
+	<text transform="matrix(1 0 0 1 67.3423 154.2099)" class="st7 st4 st9">Computer Science Department</text>
+	<text transform="matrix(1 0 0 1 67.3423 165.5099)" class="st7 st4 st9">Dartmouth College</text>
+	<text transform="matrix(1 0 0 1 67.3423 176.8099)" class="st7 st4 st10">2012 — 2014</text>
+	<text transform="matrix(1 0 0 1 67.3423 202.2511)" class="st7 st2 st8">RESEARCH INTERN</text>
+	<text transform="matrix(1 0 0 1 67.3423 213.5511)" class="st7 st4 st9">Leibowitz Lab</text>
+	<text transform="matrix(1 0 0 1 67.3423 224.8511)" class="st7 st4 st9">Rockefeller University</text>
+	<text transform="matrix(1 0 0 1 67.3423 234.6511)" class="st7 st4 st11">2011</text>
+	<text transform="matrix(1 0 0 1 67.3423 437.2505)" class="st7 st2 st8">RESEARCH ASSISTANT</text>
+	<text transform="matrix(1 0 0 1 67.3423 448.5505)" class="st7 st4 st9">Brain Imaging Lab</text>
+	<text transform="matrix(1 0 0 1 67.3423 459.8505)" class="st7 st4 st9">Dartmouth Hitchcock </text>
+	<text transform="matrix(1 0 0 1 67.3423 471.1505)" class="st7 st4 st9">Medical Center</text>
+	<text transform="matrix(1 0 0 1 67.3423 480.9505)" class="st7 st4 st10">2010</text>
+	<text transform="matrix(1 0 0 1 67.3423 526.5844)" class="st7 st2 st8">ILLUSTRATOR </text>
+	<text transform="matrix(1 0 0 1 67.3423 539.1844)" class="st7 st2 st8">&amp; GRAPHIC DESIGNER</text>
+	<text transform="matrix(1 0 0 1 67.3423 550.4844)" class="st7 st4 st9">Freelance</text>
+	<text transform="matrix(1 0 0 1 67.3423 560.2844)" class="st7 st4 st10">2008 — Present</text>
+	<text transform="matrix(1 0 0 1 67.3423 257.478)" class="st7 st2 st8">DESIGN STAFF</text>
+	<text transform="matrix(1 0 0 1 67.3423 268.778)" class="st7 st4 st9">The Dartmouth</text>
+	<text transform="matrix(1 0 0 1 67.3423 278.578)" class="st7 st4 st10">2010</text>
+	<text transform="matrix(1 0 0 1 67.3423 372.2512)" class="st7 st2 st8">WEBMASTER</text>
+	<text transform="matrix(1 0 0 1 67.3423 383.5512)" class="st7 st4 st9">Dartmouth Figure Skating</text>
+	<text transform="matrix(1 0 0 1 67.3423 394.8512)" class="st1 st4 st12" style="text-decoration: underline;">http://www.dartmouth.edu/~skating/</text>
+	<text transform="matrix(1 0 0 1 67.3423 404.6512)" class="st7 st4 st10">2010 — 2011</text>
+	<text transform="matrix(1 0 0 1 67.3423 605.8184)" class="st7 st2 st8">DARTMOUTH COLLEGE </text>
+	<text transform="matrix(1 0 0 1 67.3423 617.1184)" class="st7 st4 st13">MS in Computer Science</text>
+	<text transform="matrix(1 0 0 1 67.3423 627.9185)" class="st7 st4 st14">June 2015</text>
+	<text transform="matrix(1 0 0 1 67.3423 734.9189)" class="st7 st2 st8">DARTMOUTH COLLEGE</text>
+	<text transform="matrix(1 0 0 1 67.3423 746.2189)" class="st7 st4 st13">AB in Neuroscience</text>
+	<text transform="matrix(1 0 0 1 67.3423 757.0189)" class="st7 st4 st14">Minors in Spanish &amp; Digital Arts</text>
+	<text transform="matrix(1 0 0 1 67.3423 767.8188)" class="st7 st4 st14">June 2013</text>
+	<text transform="matrix(1 0 0 1 67.3423 845.9189)" class="st7 st2 st8">TJHSST</text>
+	<text transform="matrix(1 0 0 1 67.3423 857.2189)" class="st7 st4 st13">Alexandria, VA</text>
+	<text transform="matrix(1 0 0 1 67.3423 868.0189)" class="st7 st4 st14">June 2009</text>
+	<g>
+		<circle class="st1" cx="333.2" cy="914.4" r="5.4"/>
+		<circle class="st1" cx="317.2" cy="914.4" r="5.4"/>
+		<circle class="st1" cx="301.1" cy="914.4" r="5.4"/>
+		<circle class="st1" cx="349.1" cy="914.4" r="5.4"/>
+		<circle class="st1" cx="365" cy="914.4" r="5.4"/>
+	</g>
+	<g>
+		<circle class="st1" cx="333.2" cy="933.9" r="5.4"/>
+		<circle class="st1" cx="317.2" cy="933.9" r="5.4"/>
+		<circle class="st1" cx="301.1" cy="933.9" r="5.4"/>
+		<circle class="st1" cx="349.1" cy="933.9" r="5.4"/>
+		<circle class="st1" cx="365" cy="933.9" r="5.4"/>
+	</g>
+	<circle class="st1" cx="333.2" cy="953.3" r="5.4"/>
+	<circle class="st1" cx="317.2" cy="953.3" r="5.4"/>
+	<circle class="st1" cx="301.1" cy="953.3" r="5.4"/>
+	<circle class="st1" cx="349.1" cy="953.3" r="5.4"/>
+	<circle class="st1" cx="365" cy="953.3" r="5.4"/>
+	<g>
+		<circle class="st1" cx="333.2" cy="971.7" r="5.4"/>
+		<circle class="st1" cx="317.2" cy="971.7" r="5.4"/>
+		<circle class="st1" cx="301.1" cy="971.7" r="5.4"/>
+		<circle class="st1" cx="349.1" cy="971.7" r="5.4"/>
+		<circle class="st1" cx="365" cy="971.7" r="5.4"/>
+	</g>
+	<text transform="matrix(1 0 0 1 215.6768 918.7593)" class="st15 st16">PHOTOSHOP</text>
+	<text transform="matrix(1 0 0 1 215.6768 937.8401)" class="st15 st16">ILLUSTRATOR</text>
+	<text transform="matrix(1 0 0 1 215.6768 956.9208)" class="st15 st16">MAYA</text>
+	<text transform="matrix(1 0 0 1 215.6768 976.0016)" class="st15 st16">PROCESSING</text>
+	<text transform="matrix(1 0 0 1 215.6768 995.0822)" class="st15 st16">INDESIGN</text>
+	<text transform="matrix(1 0 0 1 215.6768 1014.163)" class="st15 st16">3D PRINTING</text>
+	<text transform="matrix(1 0 0 1 69.4746 918.7593)" class="st15 st16">ENGLISH</text>
+	<text transform="matrix(1 0 0 1 69.4746 937.978)" class="st15 st16">BENGALI</text>
+	<text transform="matrix(1 0 0 1 69.4746 957.645)" class="st15 st16">SPANISH</text>
+	<g>
+		<circle class="st1" cx="507.2" cy="914.4" r="5.4"/>
+		<circle class="st1" cx="491.2" cy="914.4" r="5.4"/>
+		<circle class="st1" cx="475.2" cy="914.4" r="5.4"/>
+		<circle class="st1" cx="523.1" cy="914.4" r="5.4"/>
+		<circle class="st1" cx="539.1" cy="914.4" r="5.4"/>
+	</g>
+	<g>
+		<circle class="st1" cx="507.2" cy="933.9" r="5.4"/>
+		<circle class="st1" cx="491.2" cy="933.9" r="5.4"/>
+		<circle class="st1" cx="475.2" cy="933.9" r="5.4"/>
+		<circle class="st7" cx="523.1" cy="933.9" r="5.4"/>
+		<circle class="st7" cx="539.1" cy="933.9" r="5.4"/>
+	</g>
+	<g>
+		<circle class="st1" cx="333.2" cy="990.9" r="5.4"/>
+		<circle class="st1" cx="317.3" cy="990.9" r="5.4"/>
+		<circle class="st1" cx="301.2" cy="990.9" r="5.4"/>
+		<circle class="st7" cx="349.2" cy="990.9" r="5.4"/>
+		<circle class="st7" cx="365.1" cy="990.9" r="5.4"/>
+	</g>
+	<circle class="st1" cx="333.2" cy="1010.2" r="5.4"/>
+	<circle class="st1" cx="317.3" cy="1010.2" r="5.4"/>
+	<circle class="st1" cx="301.2" cy="1010.2" r="5.4"/>
+	<circle class="st1" cx="349.2" cy="1010.2" r="5.4"/>
+	<circle class="st7" cx="365.1" cy="1010.2" r="5.4"/>
+	<circle class="st1" cx="507.2" cy="953.3" r="5.4"/>
+	<circle class="st1" cx="491.2" cy="953.3" r="5.4"/>
+	<circle class="st1" cx="475.2" cy="953.3" r="5.4"/>
+	<circle class="st1" cx="523.1" cy="953.3" r="5.4"/>
+	<circle class="st7" cx="539.1" cy="953.3" r="5.4"/>
+	<circle class="st7" cx="507.2" cy="990.9" r="5.4"/>
+	<circle class="st1" cx="491.2" cy="990.9" r="5.4"/>
+	<circle class="st1" cx="475.2" cy="990.9" r="5.4"/>
+	<circle class="st7" cx="523.1" cy="990.9" r="5.4"/>
+	<circle class="st7" cx="539.1" cy="990.9" r="5.4"/>
+	<circle class="st1" cx="507.2" cy="1010.2" r="5.4"/>
+	<circle class="st1" cx="491.2" cy="1010.2" r="5.4"/>
+	<circle class="st1" cx="475.2" cy="1010.2" r="5.4"/>
+	<circle class="st1" cx="523.1" cy="1010.2" r="5.4"/>
+	<circle class="st7" cx="539.1" cy="1010.2" r="5.4"/>
+	<circle class="st7" cx="507.2" cy="971.7" r="5.4"/>
+	<circle class="st1" cx="491.2" cy="971.7" r="5.4"/>
+	<circle class="st1" cx="475.2" cy="971.7" r="5.4"/>
+	<circle class="st7" cx="523.1" cy="971.7" r="5.4"/>
+	<circle class="st7" cx="539.1" cy="971.7" r="5.4"/>
+	<text transform="matrix(1 0 0 1 389.7041 918.7593)" class="st15 st16">HTM</text>
+	<text transform="matrix(1 0 0 1 409.3041 918.7593)" class="st15 st16">L</text>
+	<text transform="matrix(1 0 0 1 415.2041 918.7593)" class="st15 st16">/</text>
+	<text transform="matrix(1 0 0 1 419.1041 918.7593)" class="st15 st16">CSS</text>
+	<text transform="matrix(1 0 0 1 389.7041 937.6102)" class="st15 st16">JAVASCRIPT</text>
+	<text transform="matrix(1 0 0 1 389.7041 956.4612)" class="st15 st16">JAVA</text>
+	<text transform="matrix(1 0 0 1 389.7041 975.3121)" class="st15 st16">C++</text>
+	<text transform="matrix(1 0 0 1 389.7041 994.1628)" class="st15 st16">MATLAB</text>
+	<text transform="matrix(1 0 0 1 389.7041 1014.1627)" class="st15 st16">GIT</text>
+	<g>
+		<text transform="matrix(1 0 0 1 67.3418 -209.5099)" class="st1 st15 st16">WEBSITE</text>
+		<text transform="matrix(1 0 0 1 67.3418 -196.5128)" class="st17 st16">runigoswami.com</text>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 67.3418 -176.1067)" class="st1 st15 st16">CELL PHONE</text>
+		</g>
+		<text transform="matrix(1 0 0 1 67.3418 -163.1096)" class="st17 st16">+1(571) 345 - 8928</text>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 67.3418 -142.2033)" class="st1 st15 st16">EMAIL</text>
+		</g>
+		<text transform="matrix(1 0 0 1 67.3418 -130.2067)" class="st17 st16">runigoswami@gmail.com</text>
+	</g>
+	<rect x="216.3" y="-189" class="st18" width="324" height="72"/>
+	<text transform="matrix(1 0 0 1 216.3335 -180.2002)" class="st17 st19">I create beautiful and purposeful interactive pieces, visualizations, </text>
+	<text transform="matrix(1 0 0 1 216.3335 -167.0002)" class="st17 st19">illustrations, and applications.</text>
+	<rect x="216.3" y="-93.4" class="st18" width="337.3" height="211.4"/>
+	<text transform="matrix(1 0 0 1 216.3335 -84.5938)" class="st17 st19">• Lead and advised 25 project teams of </text>
+	<text transform="matrix(1 0 0 1 400.5335 -84.5938)" class="st17 st19">3-5</text>
+	<text transform="matrix(1 0 0 1 419.9335 -84.5938)" class="st17 st19"> designers &amp; developers</text>
+	<text transform="matrix(1 0 0 1 216.3335 -69.2938)" class="st17 st19">• Designed and coordinated 3 month interactive library exhibit of lab</text>
+	<text transform="matrix(1 0 0 1 222.3335 -53.9938)" class="st17 st19">projects; responsible for 35% increase in lab applicants</text>
+	<text transform="matrix(1 0 0 1 216.3335 -38.6938)" class="st17 st19">• Developed front-end components &amp; styling for web projects</text>
+	<text transform="matrix(1 0 0 1 222.3335 -23.3938)" class="st17 st16">(HTML5, JavaScript/jQuery, WordPress, &amp; Twitter Bootstrap)</text>
+	<text transform="matrix(1 0 0 1 216.3335 -8.0938)" class="st17 st19">• Collaborated with clients to define needs, reframe problems, create</text>
+	<text transform="matrix(1 0 0 1 223.3335 7.2062)" class="st17 st19">feature specifications, &amp; communicate feedback</text>
+	<text transform="matrix(1 0 0 1 216.3335 22.5062)" class="st17 st19">• Defined consistent design guidelines and best practices </text>
+	<text transform="matrix(1 0 0 1 216.3335 37.8062)" class="st17 st19">• Designed user-interfaces &amp; experiences in collaborative,</text>
+	<text transform="matrix(1 0 0 1 223.3335 53.1062)" class="st17 st19">interdisciplinary teams</text>
+	<text transform="matrix(1 0 0 1 216.3335 68.4062)" class="st17 st19">• Organized and ran lab workshops, client meetings, </text>
+	<text transform="matrix(1 0 0 1 222.3335 83.7062)" class="st17 st19">&amp; team building exercises</text>
+	<text transform="matrix(1 0 0 1 216.3335 99.0062)" class="st17 st19">• Streamlined methodology, workflow, and member on-boarding</text>
+	<text transform="matrix(1 0 0 1 223.3335 114.3062)" class="st17 st19">techniques for rapidly growing startup-like environment</text>
+	<rect x="216.3" y="133.6" class="st18" width="337.3" height="51.1"/>
+	<text transform="matrix(1 0 0 1 216.3335 142.3981)" class="st17 st19">• Mentored and taught 3D modeling and animation students</text>
+	<text transform="matrix(1 0 0 1 216.3335 157.6981)" class="st17 st19">• Provided detailed feedback and technical Maya assistance</text>
+	<rect x="216.3" y="192.9" class="st18" width="337.3" height="51.1"/>
+	<text transform="matrix(1 0 0 1 216.3335 201.7396)" class="st17 st19">• Created pathway diagrams for publication in review articles </text>
+	<text transform="matrix(1 0 0 1 216.3335 217.0396)" class="st17 st19">• Investigated protein signalling in murine hunger and satiety pathways</text>
+	<rect x="216.3" y="362.9" class="st18" width="326.7" height="51.1"/>
+	<text transform="matrix(1 0 0 1 216.3335 371.7396)" class="st17 st19">• Maintained &amp; curated the Dartmouth Figure Skating Club website,</text>
+	<text transform="matrix(1 0 0 1 222.3335 387.0396)" class="st17 st19">social media accounts, and alumni accomplishments</text>
+	<rect x="216.3" y="248.2" class="st18" width="337.3" height="51.1"/>
+	<text transform="matrix(1 0 0 1 216.3335 256.9663)" class="st17 st19">• Redesigned the landing and article pages for The Dartmouth newspaper</text>
+	<text transform="matrix(1 0 0 1 216.3335 272.2663)" class="st17 st19">• Restored and vectorized type assets for the website and social media</text>
+	<text transform="matrix(1 0 0 1 222.3335 287.5663)" class="st17 st19">profiles</text>
+	<text transform="matrix(1 0 0 1 67.3423 313.5385)" class="st7 st2 st8">MANAGING EDITOR</text>
+	<text transform="matrix(1 0 0 1 67.3423 324.8385)" class="st7 st4 st9">Dartmouth Undergraduate </text>
+	<text transform="matrix(1 0 0 1 67.3423 336.1385)" class="st7 st4 st9">Journal of Science </text>
+	<text transform="matrix(1 0 0 1 67.3423 345.9385)" class="st7 st4 st10">Spring 2010</text>
+	<rect x="216.3" y="304.2" class="st18" width="337.3" height="51.1"/>
+	<text transform="matrix(1 0 0 1 216.3335 313.0266)" class="st17 st19">• Managed team of15 undergraduate journalists</text>
+	<text transform="matrix(1 0 0 1 216.3335 328.3266)" class="st17 st19">• Advised print article layout and design</text>
+	<rect x="216.3" y="427.9" class="st18" width="337.3" height="96.1"/>
+	<text transform="matrix(1 0 0 1 216.3335 436.7388)" class="st17 st19">• Developed a systematic approach to analyzing MRI scans of multiple</text>
+	<text transform="matrix(1 0 0 1 222.3335 452.0388)" class="st17 st19">sclerosis patients</text>
+	<text transform="matrix(1 0 0 1 216.3335 467.3388)" class="st17 st19">• Published findings in the Journal of the International </text>
+	<text transform="matrix(1 0 0 1 222.3335 482.6388)" class="st17 st19">Neuropsychological Society and at the 39th Annual Meeting of the</text>
+	<text transform="matrix(1 0 0 1 222.3335 497.9388)" class="st17 st19">International Neuropsychological Society in 2011</text>
+	<rect x="216.3" y="516.6" class="st18" width="337.3" height="31.4"/>
+	<text transform="matrix(1 0 0 1 216.3335 525.3797)" class="st17 st19">• T-shirt design, logo design, graphic design, drawing, &amp; painting</text>
+	<rect x="216.3" y="596.5" class="st18" width="337.3" height="119.3"/>
+	<text transform="matrix(1 0 0 1 216.3335 605.3066)" class="st17 st19">• Graduated with a Master’s degree in Computer Science and a </text>
+	<text transform="matrix(1 0 0 1 222.3335 620.6066)" class="st17 st19">concentration in Digital Arts</text>
+	<text transform="matrix(1 0 0 1 216.3335 635.9066)" class="st17 st19">• Culminating thesis project </text>
+	<text transform="matrix(1 0 0 1 346.4335 635.9066)" class="st1 st17 st19">FrameShift</text>
+	<text transform="matrix(1 0 0 1 398.1335 635.9066)" class="st20"><tspan x="0" y="0" class="st17 st19"> accepted to </tspan><tspan x="61.5" y="0" class="st21 st17 st19">SIGGRAPH 2015</tspan><tspan x="138.9" y="0" class="st17 st19"> </tspan></text>
+	<text transform="matrix(1 0 0 1 223.3335 648.2065)" class="st17 st22">(The 42nd International Conference and Exhibition on Computer Graphics and Interactive Techniques) </text>
+	<text transform="matrix(1 0 0 1 522.3335 648.2065)" class="st17 st19"> </text>
+	<text transform="matrix(1 0 0 1 216.3335 663.5066)" class="st17 st19">• Full tuition merit scholarship</text>
+	<text transform="matrix(1 0 0 1 216.3335 678.8066)" class="st17 st19">• Representative Courses: </text>
+	<text transform="matrix(1 0 0 1 222.3335 692.1066)" class="st17 st14">Artificial Intelligence (Java), Computer Graphics (C++)*, Computer Vision (MATLAB), </text>
+	<text transform="matrix(1 0 0 1 222.3335 703.4066)" class="st17 st14">Fundamentals of Digital Design (Photoshop)*, Smartphone Programming (Android)</text>
+	<rect x="216.3" y="836.6" class="st18" width="337.3" height="44.5"/>
+	<text transform="matrix(1 0 0 1 216.3335 845.4072)" class="st17 st19">• National Merit Finalist, AP Scholar with Distinction, Spanish Honor</text>
+	<text transform="matrix(1 0 0 1 222.3335 860.7072)" class="st17 st19">Society Vice President</text>
+	<rect x="216.3" y="725.6" class="st18" width="337.3" height="101"/>
+	<text transform="matrix(1 0 0 1 216.3335 734.4072)" class="st17 st19">• Graduated with Honors in Neuroscience</text>
+	<text transform="matrix(1 0 0 1 216.3335 749.7072)" class="st17 st19">• Studied abroad at the Universidad Complutense in Madrid, Spain (2011)</text>
+	<text transform="matrix(1 0 0 1 216.3335 765.0072)" class="st17 st19">• Representative Courses:</text>
+	<text transform="matrix(1 0 0 1 222.3335 779.0072)" class="st17 st14">Programming for Interactive Audio-Visual Arts*,  Advanced Computer Animation *,</text>
+	<text transform="matrix(1 0 0 1 222.3335 791.0072)" class="st17 st14">Human Perception, Human Fronto-Parietal Network *, Exotic Sensory Systems *,  </text>
+	<text transform="matrix(1 0 0 1 222.3335 803.0072)" class="st17 st14">Hispanic Literature and Culture</text>
+	<text transform="matrix(1 0 0 1 222.3335 818.3073)" class="st17 st14">* indicates academic citation awarded </text>
 </g>
-<rect x="216.3" y="63" class="st19" width="324" height="72"/>
-<text transform="matrix(1 0 0 1 216.3335 71.7998)"><tspan x="0" y="0" class="st18 st20">I create beautiful and purposeful interactive pieces, visualizations, </tspan><tspan x="0" y="13.2" class="st18 st20">illustrations, and applications.</tspan></text>
-<rect x="216.3" y="158.6" class="st19" width="337.3" height="211.4"/>
-<text transform="matrix(1 0 0 1 216.3335 167.4062)"><tspan x="0" y="0" class="st18 st20">• Lead and advised 25 project teams of </tspan><tspan x="184.2" y="0" class="st18 st20">3-5</tspan><tspan x="203.6" y="0" class="st18 st20"> designers &amp; developers</tspan><tspan x="0" y="15.3" class="st18 st20">• Designed and coordinated 3 month interactive library exhibit of lab</tspan><tspan x="6" y="30.6" class="st18 st20">projects; responsible for 35% increase in lab applicants</tspan><tspan x="0" y="45.9" class="st18 st20">• Developed front-end components &amp; styling for web projects</tspan><tspan x="6" y="61.2" class="st18 st17">(HTML5, JavaScript/jQuery, WordPress, &amp; Twitter Bootstrap)</tspan><tspan x="0" y="76.5" class="st18 st20">• Collaborated with clients to define needs, reframe problems, create</tspan><tspan x="7" y="91.8" class="st18 st20">feature specifications, &amp; communicate feedback</tspan><tspan x="0" y="107.1" class="st18 st20">• Defined consistent design guidelines and best practices </tspan><tspan x="0" y="122.4" class="st18 st20">• Designed user-interfaces &amp; experiences in collaborative,</tspan><tspan x="7" y="137.7" class="st18 st20">interdisciplinary teams</tspan><tspan x="0" y="153" class="st18 st20">• Organized and ran lab workshops, client meetings, </tspan><tspan x="6" y="168.3" class="st18 st20">&amp; team building exercises</tspan><tspan x="0" y="183.6" class="st18 st20">• Streamlined methodology, workflow, and member on-boarding</tspan><tspan x="7" y="198.9" class="st18 st20">techniques for rapidly growing startup-like environment</tspan></text>
-<rect x="216.3" y="385.6" class="st19" width="337.3" height="51.1"/>
-<text transform="matrix(1 0 0 1 216.3335 394.3981)"><tspan x="0" y="0" class="st18 st20">• Mentored and taught 3D modeling and animation students</tspan><tspan x="0" y="15.3" class="st18 st20">• Provided detailed feedback and technical Maya assistance</tspan></text>
-<rect x="216.3" y="444.9" class="st19" width="337.3" height="51.1"/>
-<text transform="matrix(1 0 0 1 216.3335 453.7396)"><tspan x="0" y="0" class="st18 st20">• Created pathway diagrams for publication in review articles </tspan><tspan x="0" y="15.3" class="st18 st20">• Investigated protein signalling in murine hunger and satiety pathways</tspan></text>
-<rect x="216.3" y="614.9" class="st19" width="326.7" height="51.1"/>
-<text transform="matrix(1 0 0 1 216.3335 623.7396)"><tspan x="0" y="0" class="st18 st20">• Maintained &amp; curated the Dartmouth Figure Skating Club website,</tspan><tspan x="6" y="15.3" class="st18 st20">social media accounts, and alumni accomplishments</tspan></text>
-<rect x="216.3" y="500.2" class="st19" width="337.3" height="51.1"/>
-<text transform="matrix(1 0 0 1 216.3335 508.9663)"><tspan x="0" y="0" class="st18 st20">• Redesigned the landing and article pages for The Dartmouth newspaper</tspan><tspan x="0" y="15.3" class="st18 st20">• Restored and vectorized type assets for the website and social media</tspan><tspan x="6" y="30.6" class="st18 st20">profiles</tspan></text>
-<text transform="matrix(1 0 0 1 67.3423 565.5385)"><tspan x="0" y="0" class="st8 st2 st9">MANAGING EDITOR</tspan><tspan x="0" y="11.3" class="st8 st4 st10">Dartmouth Undergraduate </tspan><tspan x="0" y="22.6" class="st8 st4 st10">Journal of Science </tspan><tspan x="0" y="32.4" class="st8 st4 st11">Spring 2010</tspan></text>
-<rect x="216.3" y="556.2" class="st19" width="337.3" height="51.1"/>
-<text transform="matrix(1 0 0 1 216.3335 565.0266)"><tspan x="0" y="0" class="st18 st20">• Managed team of15 undergraduate journalists</tspan><tspan x="0" y="15.3" class="st18 st20">• Advised print article layout and design</tspan></text>
-<rect x="216.3" y="679.9" class="st19" width="337.3" height="96.1"/>
-<text transform="matrix(1 0 0 1 216.3335 688.7388)"><tspan x="0" y="0" class="st18 st20">• Developed a systematic approach to analyzing MRI scans of multiple</tspan><tspan x="6" y="15.3" class="st18 st20">sclerosis patients</tspan><tspan x="0" y="30.6" class="st18 st20">• Published findings in the Journal of the International </tspan><tspan x="6" y="45.9" class="st18 st20">Neuropsychological Society and at the 39th Annual Meeting of the</tspan><tspan x="6" y="61.2" class="st18 st20">International Neuropsychological Society in 2011</tspan></text>
-<rect x="216.3" y="768.6" class="st19" width="337.3" height="31.4"/>
-<text transform="matrix(1 0 0 1 216.3335 777.3797)" class="st18 st20">• T-shirt design, logo design, graphic design, drawing, &amp; painting</text>
-<rect x="216.3" y="848.5" class="st19" width="337.3" height="119.3"/>
-<text transform="matrix(1 0 0 1 216.3335 857.3066)"><tspan x="0" y="0" class="st18 st20">• Graduated with a Master’s degree in Computer Science and a </tspan><tspan x="6" y="15.3" class="st18 st20">concentration in Digital Arts</tspan><tspan x="0" y="30.6" class="st18 st20">• Culminating thesis project </tspan><tspan x="130.1" y="30.6" class="st1 st18 st20" style="text-decoration: underline;">FrameShift</tspan><tspan x="181.8" y="30.6" class="st18 st20"> accepted to SIGGRAPH 2015 </tspan><tspan x="7" y="42.9" class="st18 st21">(The 42nd International Conference and Exhibition on Computer Graphics and Interactive Techniques) </tspan><tspan x="306" y="42.9" class="st18 st20"> </tspan><tspan x="0" y="58.2" class="st18 st20">• Full tuition merit scholarship</tspan><tspan x="0" y="73.5" class="st18 st20">• Representative Courses: </tspan><tspan x="6" y="86.8" class="st18 st15">Artificial Intelligence (Java), Computer Graphics (C++)*, Computer Vision (MATLAB), </tspan><tspan x="6" y="98.1" class="st18 st15">Fundamentals of Digital Design (Photoshop)*, Smartphone Programming (Android)</tspan></text>
-<rect x="216.3" y="1088.6" class="st19" width="337.3" height="44.5"/>
-<text transform="matrix(1 0 0 1 216.3335 1097.4072)"><tspan x="0" y="0" class="st18 st20">• National Merit Finalist, AP Scholar with Distinction, Spanish Honor</tspan><tspan x="6" y="15.3" class="st18 st20">Society Vice President</tspan></text>
-<rect x="216.3" y="977.6" class="st19" width="337.3" height="101"/>
-<text transform="matrix(1 0 0 1 216.3335 986.4072)"><tspan x="0" y="0" class="st18 st20">• Graduated with Honors in Neuroscience</tspan><tspan x="0" y="15.3" class="st18 st20">• Studied abroad at the Universidad Complutense in Madrid, Spain (2011)</tspan><tspan x="0" y="30.6" class="st18 st20">• Representative Courses:</tspan><tspan x="6" y="44.6" class="st18 st15">Programming for Interactive Audio-Visual Arts*,  Advanced Computer Animation *,</tspan><tspan x="6" y="56.6" class="st18 st15">Human Perception, Human Fronto-Parietal Network *, Exotic Sensory Systems *,  </tspan><tspan x="6" y="68.6" class="st18 st15">Hispanic Literature and Culture</tspan><tspan x="6" y="83.9" class="st18 st15">* indicates academic citation awarded </tspan></text>
+<g id="Layer_2">
+	<rect id="dali-link" x="64" y="-68" class="st23" width="105" height="14"/>
+	<rect id="email-link" x="64" y="-140.2" class="st23" width="112.7" height="14"/>
+	<rect id="skating-link" x="62" y="385" class="st23" width="140.3" height="13"/>
+	<rect id="frameshift-link" x="342.7" y="624" class="st23" width="57.9" height="16"/>
+	<rect id="siggraph-link" x="457.7" y="624" class="st23" width="81.4" height="16"/>
+</g>
 </svg>

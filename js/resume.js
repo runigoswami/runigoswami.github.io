@@ -12,24 +12,21 @@
   if (snap) {
     Snap.load("/img/svgs/resume.svg", function(f) {
       snap.append(f);
-      // var thoughts = ["#brain", "#soundcloud", "#deathly_hallows", "#paintbrush", "#om", "#skate", "#wave", "#tea", "#mantis_shrimp", "#photos", "#tjhsst", "#play_buttons", "#oxytocin", "#dodecahedron", "#plane_ticket"];
-      // snap.append(f);
-      // for (i = 0; i < thoughts.length; i++) {
-      //   var thought = thoughts[i];
-      //   snap.select(thought + "_container").hover(function(d) {
-      //     var sel = '#' + d.path[1].id.replace("_container", "");;
-      //     console.log(sel);
-      //     snap.select(sel).attr({
-      //       fill: "#5acecf"
-      //     });
-      //   }, function(d) {
-      //     var sel = '#' + d.path[1].id.replace("_container", "");;
-      //     console.log(sel);
-      //     snap.select(sel).attr({
-      //       fill: "#434343"
-      //     });
-      //   });
-      // }
+      $("#dali-link").click(function() {
+        window.open("http://dali.dartmouth.edu", "_blank");
+      });
+      $("#skating-link").click(function() {
+        window.open("http://dartmouth.edu/~skating/", "_blank");
+      });
+      $("#email-link").click(function() {
+        window.location.href = "mailto:runigoswami@gmail.com";
+      });
+      $("#frameshift-link").click(function() {
+        window.location = "/posts/frameshift";
+      });
+      $("#siggraph-link").click(function() {
+        window.open("http://s2015.siggraph.org/", "_blank");
+      });
       snap.select('svg').attr({
         preserveAspectRatio: "xMaxYMin meet"
       });

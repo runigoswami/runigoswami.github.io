@@ -190,6 +190,21 @@ h1, h2, h3 {
   height: 100%;
   width: 100%;
 }
+#dali-link:hover{
+  cursor:pointer;
+}
+#skating-link:hover{
+  cursor:pointer;
+}
+#email-link:hover{
+  cursor:pointer;
+}
+#frameshift-link:hover{
+  cursor:pointer;
+}
+#siggraph-link:hover{
+  cursor:pointer;
+}
 
 
 
