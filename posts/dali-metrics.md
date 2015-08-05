@@ -40,4 +40,4 @@ Another surprising aspect of the Lab is the diversity of student majors and clas
 Over the past two years, I've had the pleasure of watching the Lab grow and develop an open, collaborative, culture. I'm sad to move on from both the Lab and from Dartmouth but I'm excited to see how the Lab continues to grow in the years to come.
 
 #####Interactivity Sandbox
-I'm working on turning these static visualizations for presentations into interactive visualizations for the DALI Lab's eventual website revamp. Stay tuned.
+I'm working on turning these static visualizations for presentations into interactive visualizations for the DALI Lab's eventual website revamp. Stay tuned!
