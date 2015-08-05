@@ -30,11 +30,16 @@ I had one month to design the exhibit, two weeks to install the physical exhibit
 I created a lot of posters and related graphics for this exhibit. I used the lab space as inspiration and used the lab colors of blue and orange liberally throughout.  Looking back, I would have designed some of the posters differently. However, because of the sheer magnitude of this project and the number of assets I created for it, I think I improved tremendously as a designer as a result of creating this exhibit. Here are some images I printed and backed with foamcore for display in the cases.
 
 ![berry_composite](/img/berry_triangle.jpg  "Berry")
-######Composite Photo
+![berry_attr](/img/berry_attr.png  "Berry")
 
+![berry_about](/img/berry_about.png  "Berry")
+![berry_milton](/img/berry_milton.jpg  "Berry")
 
 #####Exhibit Layout & Planning
 ![berry_casemap](/img/berry_casemap.jpg  "Berry")
-######Plans for contents of 74"x96" glass cases
+![berry_case1](/img/berry_case1.jpg  "Berry")
+######Plans for contents of 74" x 96" glass cases
 
 #####Launch Event
+![berry_launch](/img/berry_launch.jpg  "Berry")
+![berry_runi](/img/berry_runi.jpg  "Berry")

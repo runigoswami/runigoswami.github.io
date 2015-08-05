@@ -203,8 +203,59 @@
           display: inline-block;
           position: relative;
         }
+        img[alt=berry_composite] {
+          width: 30vw;
+          margin-left: 3vw;
+          display: inline-block;
+          position: relative;
+        }
+        img[alt=berry_attr] {
+          width: 30vw;
+          margin-left: 1.5vw;
+          display: inline-block;
+          position: relative;
+        }
+        img[alt=berry_about] {
+          width: 30vw;
+          margin-left: 3vw;
+          display: inline-block;
+          position: relative;
+        }
+        img[alt=berry_milton] {
+          width: 30vw;
+          margin-left: 1.5vw;
+          display: inline-block;
+          position: relative;
+        }
+        img[alt=berry_launch] {
+          width: 25vw;
+        }
         img[alt=ffb] {
-          width: 25vmax;
+          width: 20vw;
+        }
+        img[alt=berry_casemap] {
+          margin-left: 3vw;
+          display: inline-block;
+          position: relative;
+          width: 30vw;
+        }
+        img[alt=berry_case1] {
+          width: 30vw;
+          margin-left: 1.5vw;
+          display: inline-block;
+          position: relative;
+        }
+        img[alt=berry_launch] {
+          margin-left: 3vw;
+          display: inline-block;
+          position: relative;
+          width: 20vw;
+        }
+        img[alt=berry_runi] {
+          width: 40vw;
+          margin-left: 1.5vw;
+          display: inline-block;
+          position: relative;
         }
         .postcontent ul {
           list-style-type: circle;
