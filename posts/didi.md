@@ -5,6 +5,10 @@
 #####Project Overview
 My one and only sister and now brother-in-law got married on October 12, 2014! I admittedly didn't do very much (read: any) to help them with planning. Terrible sister that I am, I didn't even make their wedding website! However, one week before the wedding, it turned out that there were no place cards, cocktail menus, or instructions for the polaroid guestbook at the reception. I was home and armed with Illustrator so I took the colors from their main menus and went to work.
 
+![table](/img/wedding_table.jpg  "table")
+![menu](/img/wedding_menu.png  "menu")
+![polaroid](/img/wedding_polaroid.png  "polaroid")
+######Table Cards, Cocktail Menus, & Guest Book Instructions
 
 My only contribution to the wedding which was not last minute was my sister's wedding present. I wanted to make something special that she couldn't get anywhere else or from anyone else so I designed a 3D printed necklace (printed in brass and gold plated by Shapeways). The script reads "Didi" or older sister in Bengali and the body is of a cheetah, her favorite animal.
 

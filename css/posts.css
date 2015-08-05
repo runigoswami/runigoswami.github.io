@@ -260,6 +260,24 @@
           display: inline-block;
           position: relative;
         }
+        img[alt=table] {
+          margin-left: 3vw;
+          display: inline-block;
+          position: relative;
+          width: 20vw;
+        }
+        img[alt=menu] {
+          width: 20vw;
+          margin-left: 1.5vw;
+          display: inline-block;
+          position: relative;
+        }
+        img[alt=polaroid] {
+          width: 20vw;
+          margin-left: 1.5vw;
+          display: inline-block;
+          position: relative;
+        }
         .postcontent ul {
           list-style-type: circle;
           margin-left: 3vw;
