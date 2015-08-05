@@ -183,6 +183,9 @@
         #vcl-cover .baselayer {
           background-image: url('/img/vcl_header.jpg');
         }
+        #wedding-cover .baselayer {
+          background-image: url('/img/didi.jpg');
+        }
         img {
           width: 50vw;
           display: block;
