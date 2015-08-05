@@ -186,6 +186,14 @@
         #wedding-cover .baselayer {
           background-image: url('/img/didi.jpg');
         }
+        #metrics-cover .baselayer {
+          background-image: url('/img/metrics_work.png');
+          /*-webkit-filter: blur(5px);
+          -moz-filter: blur(5px);
+          -o-filter: blur(5px);
+          -ms-filter: blur(5px);
+          filter: blur(5px);*/
+        }
         img {
           width: 50vw;
           display: block;
@@ -278,6 +286,27 @@
           display: inline-block;
           position: relative;
         }
+        img[alt=halfsies-1] {
+          width: 34vw;
+          margin-left: 0vw;
+          display: inline-block;
+          position: relative;
+        }
+        img[alt=halfsies-2] {
+          width: 34vw;
+          margin-left: 1.5vw;
+          display: inline-block;
+          position: relative;
+        }
+        img[alt=vert-halfsies-1] {
+          width: auto;
+          height: 45vh;
+        }
+        img[alt=vert-halfsies-2] {
+          width: auto;
+          height: 45vh;
+          margin-top: 1.5vh;
+        }
         .postcontent ul {
           list-style-type: circle;
           margin-left: 3vw;
@@ -305,6 +334,21 @@
           -webkit-transition: opacity .25s ease;
           -moz-transition: opacity .25s ease;
         }
+
+        .yellow-overlay {
+          background-color: rgba(0, 148, 255, 0.3);
+          background-size: cover;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          position: relative;
+          vertical-align: middle;
+          /*display: table;*/
+          display: inline-block;
+          -webkit-transition: opacity .25s ease;
+          -moz-transition: opacity .25s ease;
+        }
+
         #down {
           display: table-cell;
           color: rgb(255, 255, 255);

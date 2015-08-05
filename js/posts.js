@@ -40,6 +40,7 @@
       var onethirdsHeight = (winH) / 3;
       $('.cover').height(.9 * winH);
       $('#vcl-cover').height(halfWindowHeight);
+      $('#metrics-cover').height(halfWindowHeight);
       $('#berry-cover').height(2*onethirdsHeight);
       s.refresh($('.cover, .content'));
     }
