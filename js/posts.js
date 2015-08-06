@@ -41,6 +41,7 @@
       $('.cover').height(.9 * winH);
       $('#vcl-cover').height(halfWindowHeight);
       $('#metrics-cover').height(halfWindowHeight);
+      $('#leverone-cover').height(2*onethirdsHeight);
       $('#berry-cover').height(2*onethirdsHeight);
       s.refresh($('.cover, .content'));
     }
