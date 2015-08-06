@@ -13,3 +13,5 @@ Through these postcards I was introduced to the marvelous world of bleeds and co
 
 ![halfsies-1](/img/postcard_front.jpg)
 ![halfsies-2](/img/postcard_back.png)
+
+As a bonus, I turned the "Develop" icon into an icon for The Noun Project. You can check it out/download it [here](https://thenounproject.com/term/terminal/159707/). 
