@@ -186,6 +186,9 @@
         #wedding-cover .baselayer {
           background-image: url('/img/didi.jpg');
         }
+        #merch-cover .baselayer {
+          background-image: url('/img/thumbs/thumb_shoes.jpg');
+        }
         #metrics-cover .baselayer {
           background-image: url('/img/metrics_work.png');
           /*-webkit-filter: blur(5px);
@@ -298,6 +301,25 @@
           display: inline-block;
           position: relative;
         }
+        img[alt=thirdsies-1] {
+          width: 20vw;
+          margin-left: 0vw;
+          display: inline-block;
+          position: relative;
+        }
+        img[alt=thirdsies-2] {
+          width: 20vw;
+          margin-left: 1.5vw;
+          display: inline-block;
+          position: relative;
+        }
+        img[alt=thirdsies-3] {
+          width: 20vw;
+          margin-left: 1.5vw;
+          display: inline-block;
+          position: relative;
+        }
+
         img[alt=vert-halfsies-1] {
           width: auto;
           height: 45vh;
