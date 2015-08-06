@@ -301,6 +301,9 @@ main {
 #wanderlust{
   background-image: url('/img/thumbs/thumb_wanderlust.jpg');
 }
+#thumb_tim{
+  background-image: url('/img/tim_header.jpg');
+}
 .overlay {
   background: rgba(90, 206, 207, .75);
   background-size: cover;
