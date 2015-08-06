@@ -32,6 +32,11 @@ For the user interface I tried to use larger, bolder, fonts and font sizes, flat
 This was my first webapp and my first user interface and experience project with real partners. I learned a lot and I think I succeeded in many ways with my design (the coaches have been using the system since January). However, there are certainly aspects of the design I would change now if given the opportunity.
 
 #####Development Challenges
-The largest hurdle for this project came at the end with Dartmouth's Security concerns.
 
-#####User Manual
+The largest hurdle for this project came at the end with Dartmouth's network security concerns. Dartmouth's IT Support Services had set up strict access rules for the LightRules appliance in the field house which included a firewall prevented any external communication.  However, the touchscreen needed to run our webapp which is hosted externally in addition to needing to access the LightRules Applicance API locally through clientside javascript.  Once the firewall was in place, only computers behind the firewall or VPN-ed in would be able to control the lights. To work around this we needed IT Services to allow the touchscreen to both be able to load the appliance from remote IP addresses but also be able to access the LightRules appliance VLAN.
+
+#####Delivery!
+It took about a month for us to finally get it installed and working robustly but seeing our hard work installed and being able to control the lights for the fieldhouse was extremely rewarding. I made a [user manual](/img/leverone_manual.pdf) for FO&M and the coaches and delivered it to the partners with a nice bow!
+
+![berry_launch](/img/leverone_handoff.jpg  "work")
+![berry_runi](/img/leverone_installed.jpg  "work")
