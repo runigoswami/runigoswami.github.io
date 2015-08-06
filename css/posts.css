@@ -195,6 +195,9 @@
           #tim-cover .baselayer {
             background-image: url('/img/tim_header.jpg');
           }
+          #postcard-cover .baselayer {
+            background-image: url('/img/postcard_frontback.jpg');
+          }
           #metrics-cover .baselayer {
             background-image: url('/img/metrics_work.png');
             /*-webkit-filter: blur(5px);

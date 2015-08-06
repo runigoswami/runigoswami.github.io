@@ -40,6 +40,7 @@
       var onethirdsHeight = (winH) / 3;
       $('.cover').height(.9 * winH);
       $('#vcl-cover').height(halfWindowHeight);
+      $('.halfcover').height(halfWindowHeight);
       $('#metrics-cover').height(halfWindowHeight);
       $('#leverone-cover').height(2*onethirdsHeight);
       $('#tim-cover').height(2*onethirdsHeight);

@@ -304,6 +304,9 @@ main {
 #thumb_tim{
   background-image: url('/img/tim_header.jpg');
 }
+#thumb_postcard{
+  background-image: url('/img/postcard_frontback.jpg');
+}
 .overlay {
   background: rgba(90, 206, 207, .75);
   background-size: cover;
@@ -318,6 +321,7 @@ main {
 }
 .grid-item:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
 #text_overlay {
   font-family: 'CooperHewitt-Light', sans-serif;
@@ -326,6 +330,12 @@ main {
   vertical-align: middle;
   color: rgb(255, 255, 255);
   font-size: 24px;
+}
+.grid-item:hover{
+    cursor: pointer;
+}
+.overlay:hover{
+    cursor: pointer;
 }
 .grid-item {
   float: left;
