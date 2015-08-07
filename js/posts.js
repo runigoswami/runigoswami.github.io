@@ -45,7 +45,7 @@
       $('#leverone-cover').height(2*onethirdsHeight);
       $('#tim-cover').height(2*onethirdsHeight);
       $('#berry-cover').height(2*onethirdsHeight);
-      $('#draper-cover').height(winH);
+      $('.fullcover').height(winH);
       s.refresh($('.cover, .content'));
     }
   }

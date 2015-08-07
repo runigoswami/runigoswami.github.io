@@ -171,6 +171,9 @@
             overflow: hidden;
             position: relative;
           }
+          #soon-cover .baselayer {
+            background-image: url('/img/comingsoon.jpg')
+          }
           #peru-cover .baselayer {
             background-image: url('/img/thumbs/thumb_wanderlust.jpg');
           }
