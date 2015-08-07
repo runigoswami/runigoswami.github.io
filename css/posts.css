@@ -204,6 +204,9 @@
           #draper-cover .baselayer {
             background-image: url('/img/thumbs/draper.png');
           }
+          #floodplan-cover .baselayer {
+            background-image: url('/img/flood_projection_4.jpg');
+          }
           #metrics-cover .baselayer {
             background-image: url('/img/metrics_work.png');
             /*-webkit-filter: blur(5px);
