@@ -209,11 +209,6 @@
           }
           #metrics-cover .baselayer {
             background-image: url('/img/metrics_work.png');
-            /*-webkit-filter: blur(5px);
-          -moz-filter: blur(5px);
-          -o-filter: blur(5px);
-          -ms-filter: blur(5px);
-          filter: blur(5px);*/
           }
           img {
             width: 50vw;
@@ -223,6 +218,7 @@
             left: 0;
             right: 0;
             position: relative;
+            loop: infinite;
           }
           img[alt=vcl_thumbs] {
             width: 24vw;
