@@ -198,6 +198,9 @@
           #postcard-cover .baselayer {
             background-image: url('/img/postcard_frontback.jpg');
           }
+          #draper-cover .baselayer {
+            background-image: url('/img/thumbs/draper.png');
+          }
           #metrics-cover .baselayer {
             background-image: url('/img/metrics_work.png');
             /*-webkit-filter: blur(5px);
