@@ -1,8 +1,5 @@
-# &iexcl;Vamos a Peru!
-
-
-
-I'm going to Peru!
-
+# &iexcl;Perú
 
 August 21 — September 4
+
+Stories & Photos coming soon
