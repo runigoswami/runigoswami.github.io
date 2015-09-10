@@ -178,7 +178,10 @@
             background-image: url('/img/peru/cusco-plaza-me.jpg');
           }
           #lima-cover .baselayer {
-            background-image: url('/img/peru/cusco-plaza-me.jpg');
+            background-image: url('/img/peru/lima-gold.jpg');
+          }
+          #llama-cover .baselayer {
+            background-image: url('/img/peru/llama-scratch.jpg');
           }
           #frameshift-cover .baselayer {
             background-image: url('/img/frameshift_cover.jpg');

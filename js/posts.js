@@ -40,6 +40,8 @@
       var onethirdsHeight = (winH) / 3;
       $('.cover').height(.9 * winH);
       $('.halfcover').height(halfWindowHeight);
+      $('#lima-cover').height(2*onethirdsHeight);
+      $('#llama-cover').height(2*onethirdsHeight);
       $('.twothirds').height(2*onethirdsHeight);
       $('.fullcover').height(winH);
       s.refresh($('.cover, .content'));

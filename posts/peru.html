@@ -63,7 +63,7 @@
         </div>
 
         <section id="lima-cover" class="cover">
-          <div class="baselayer" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#lima-cover">
+          <div class="baselayer" data-bottom-top="background-position: 50% -1000px;" data-top-bottom="background-position: 50% -500px;" data-anchor-target="#lima-cover">
             <div class="covercontainer"> </div>
           </div>
         </section>
@@ -78,6 +78,23 @@
           </script>
           <div id="mymarkdown-1" style="display:none;">
           </div>
+
+          <section id="llama-cover" class="cover">
+            <div class="baselayer" data-bottom-top="background-position: 50% 0px;" data-top-bottom="background-position: 50% -200px;" data-anchor-target="#llama-cover">
+              <div class="covercontainer"> </div>
+            </div>
+          </section>
+
+          <section id="bkgd-2" class="postcontent">
+            <div id="displaymarky-2">
+            </div>
+            <script>
+              $.get("/posts/peru-2.md", function(data) {
+                $("#displaymarky-2").html(marked(data));
+              });
+            </script>
+            <div id="mymarkdown-2" style="display:none;">
+            </div>
 
         <div class="contentcontainer">
           <!-- <div id=filtration_bar>
