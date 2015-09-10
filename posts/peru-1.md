@@ -37,14 +37,14 @@ Perhaps even more impressive is the Ikea-level back library of ceramic pieces th
 
 One of those *patos silvestres* made its way onto my plate at the gorgeous Cafe del Museo with some passionfruit glaze and quinoa risotto (spot the Chicha Morada)! Ma picked passionfruit juice and her first taste of Peruvian trucha (trout)! Apparently you need prior reservations to secure a spot at the Cafe, a fact we were blissfully oblivious to. We got there earlier enough for lunch that they were easily able to accommodate us. Later, a crowd of Italian package tourists and Japanese dignitaries descended and we made our exit.
 
-![halfsies-1](/img/peru/lima-larco-pato.jpg)
-![halfsies-2](/img/peru/lima-larco-ma-racuya.jpg)
-######An abundance of maracuyá
+![vert-halfsies-1](/img/peru/lima-larco-pato.jpg)
+######Pato
 
 Did I mention that the Museo Larco also has hummingbird-filled gardens and bougainvillea-covered walls? There's a reason it's the top pick on TripAdvisor.
 
-![halfsies-1](/img/peru/lima-larco.jpg)
-![halfsies-2](/img/peru/lima-larco-picaflor.jpg)
-
-![halfsies-1](/img/peru/lima-larco-pigeon.jpg)
-![halfsies-2](/img/peru/lima-larco-lamp.jpg)
+![thirdsies-1](/img/peru/lima-larco.jpg)
+![thirdsies-2](/img/peru/lima-larco-picaflor.jpg)
+![thirdsies-3](/img/peru/lima-larco-boug.jpg)
+![thirdsies-1](/img/peru/lima-larco-pigeon.jpg)
+![thirdsies-2](/img/peru/lima-larco-ma.jpg)
+![thirdsies-3](/img/peru/Iima-larco-lamp.jpg)
