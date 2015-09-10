@@ -177,6 +177,9 @@
           #peru-cover .baselayer {
             background-image: url('/img/peru/cusco-plaza-me.jpg');
           }
+          #lima-cover .baselayer {
+            background-image: url('/img/peru/cusco-plaza-me.jpg');
+          }
           #frameshift-cover .baselayer {
             background-image: url('/img/frameshift_cover.jpg');
           }
@@ -395,16 +398,11 @@
             width: 100%;
             height: 100%;
           }
-          #bkgd .postcontent {
-            background-color: rgba(218, 240, 240, 1);
-            background-image: -moz-linear-gradient(top, rgba(218, 240, 240, 1) 0%, rgba(235, 228, 217, 1) 50%, rgba(235, 197, 197, 1) 100%);
-            background-image: -webkit-gradient(top, bottom, color-stop(0%, rgba(218, 240, 240, 1)), color-stop(50%, rgba(235, 228, 217, 1)), color-stop(100%, rgba(235, 197, 197, 1)));
-            background-image: -webkit-linear-gradient(top, rgba(218, 240, 240, 1) 0%, rgba(235, 228, 217, 1) 50%, rgba(235, 197, 197, 1) 100%);
-            background-image: -o-linear-gradient(top, rgba(218, 240, 240, 1) 0%, rgba(235, 228, 217, 1) 50%, rgba(235, 197, 197, 1) 100%);
-            background-image: -ms-linear-gradient(top, rgba(218, 240, 240, 1) 0%, rgba(235, 228, 217, 1) 50%, rgba(235, 197, 197, 1) 100%);
-            background-image: linear-gradient(to bottom, rgba(218, 240, 240, 1) 0%, rgba(235, 228, 217, 1) 50%, rgba(235, 197, 197, 1) 100%);
-            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#daf0f0', endColorstr='#ebc5c5', GradientType=1);
+          /*#bkgd .postcontent {
+
           }
+          #bkgd-1 .postcontent {
+          }*/
           .overlay h1 {
             /*display: table-cell;*/
             font-family: '../fonts/CooperHewitt-Bold', sans-serif;

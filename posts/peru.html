@@ -57,14 +57,27 @@
         <script>
           $.get("/posts/peru.md", function(data) {
             $("#displaymarky").html(marked(data));
-            console.log("loaded some stuff");
           });
-          console.log("doing stuff");
         </script>
-
         <div id="mymarkdown" style="display:none;">
         </div>
 
+        <section id="lima-cover" class="cover">
+          <div class="baselayer" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#lima-cover">
+            <div class="covercontainer"> </div>
+          </div>
+        </section>
+
+        <section id="bkgd-1" class="postcontent">
+          <div id="displaymarky-1">
+          </div>
+          <script>
+            $.get("/posts/peru-1.md", function(data) {
+              $("#displaymarky-1").html(marked(data));
+            });
+          </script>
+          <div id="mymarkdown-1" style="display:none;">
+          </div>
 
         <div class="contentcontainer">
           <!-- <div id=filtration_bar>
