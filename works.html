@@ -62,15 +62,17 @@
           </div>
 
           <div id="container" class="grid">
-            <div id="thumb_frameshift" class="space interactive grid-item">
+
+            <div data-stacking-factor = "0.4" id="thumb_frameshift" class="space interactive grid-item">
               <a href="/posts/frameshift">
-                <div class="overlay">
+                <div data-stacking-factor = "1.4" class="overlay">
                   <p id="text_overlay">FrameShift:
                     <br> Shift Your Attention, Shift the Story
                     <br> Master's Thesis Project</p>
                 </div>
               </a>
             </div>
+
             <div id="wanderlust" class="space illustration other grid-item grid-item--height5">
               <a href="/posts/peru">
                 <div class="overlay">
@@ -299,6 +301,7 @@
     <script src="js/skrollr.js"></script>
     <script src="js/vendor/snap.svg-min.js"></script>
     <script src="/js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/vendor/ATicon.js"></script>
     <script src="js/vendor/imgix.min.js"></script>
     <script>
       imgix.onready(function() {

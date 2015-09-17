@@ -128,7 +128,9 @@
   // trigger event handler to init Isotope
   onHashchange();
 
-
-
+  (function() {
+  	'use strict';
+  	ATicon.getInstance($('.grid-item'));
+  })();
 
 })(jQuery);
