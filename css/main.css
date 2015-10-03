@@ -6,9 +6,14 @@
                                           line-height: 1.4;
                                         }
                                         @font-face {
-                                          font-family: '/fonts/CooperHewitt-Light';
-                                          src: url('CooperHewitt-Light.eot');
-                                          src: url('CooperHewitt-Light.eot?#iefix') format('embedded-opentype'), url('CooperHewitt-Light.woff') format('woff'), url('CooperHewitt-Light.ttf') format('truetype'), url('CooperHewitt-Light.svg#webfont') format('svg');
+                                          font-family: '../fonts/CooperHewitt-Light';
+                                          src: url('../fonts/CooperHewitt-Light.eot');
+                                          src: url('../fonts/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/CooperHewitt-Light.woff') format('woff'), url('../fonts/CooperHewitt-Light.ttf') format('truetype'), url('../fonts/CooperHewitt-Light.svg#webfont') format('svg');
+                                        }
+                                        @font-face {
+                                          font-family: '../fonts/CooperHewitt-Bold';
+                                          src: url('../fonts/CooperHewitt-Bold.eot');
+                                          src: url('../fonts/CooperHewitt-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/CooperHewitt-Bold.woff') format('woff'), url('../fonts/CooperHewitt-Bold.ttf') format('truetype'), url('../fonts/CooperHewitt-Bold.svg#webfont') format('svg');
                                         }
                                         /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -352,6 +357,7 @@
                                           box-shadow: 2px 2px 21px -5px rgba(43, 43, 43, 0.87);
                                         }
                                         .frame h1 {
+                                          /*font: 100%/1.5em 'CooperHewitt-Bold', sans-serif;*/
                                           font-family: 'CooperHewitt-Bold', sans-serif;
                                           text-transform: uppercase;
                                           text-shadow: 2px 2px 5px rgba(43, 43, 43, 0.57);
