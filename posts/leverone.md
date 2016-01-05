@@ -29,7 +29,7 @@ For the user interface I tried to use larger, bolder, fonts and font sizes, flat
 ![halfsies-2](/img/leverone_login.jpg  "work")
 ######Intermediate Screenshots
 
-![final-design](/img/leverone-main.jpg "work")
+![final-design](/img/leverone-ipad.jpg "work")
 ######Final Design
 
 This was my first webapp and my first user interface and experience project with real partners. I learned a lot and I think I succeeded in many ways with my design (the coaches have been using the system since January 2015). I recently redesigned the app as a design exercise and to see how I have grown as a designer since installation.
