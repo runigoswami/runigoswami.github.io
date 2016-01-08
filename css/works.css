@@ -311,7 +311,7 @@ main {
   background-image: url('/img/floodplan_historic.png');
 }
 #thumb_portfolio{
-  background-image: url('/img/thumbs/thumb_printportfolio');
+  background-image: url('/img/thumbs/thumb_printportfolio.png');
 }
 .overlay {
   background: rgba(90, 206, 207, .75);
