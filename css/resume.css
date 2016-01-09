@@ -227,6 +227,9 @@ h1, h2, h3 {
 #siggraph-link:hover{
   cursor:pointer;
 }
+#portfolio-link:hover{
+  cursor:pointer;
+}
 
 
 
