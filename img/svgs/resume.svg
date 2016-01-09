@@ -14,6 +14,7 @@
 	.st8{fill:none;}
 	.st9{fill:#5ACECF;}
 	.st10{fill:#FFFFFF;fill-opacity:0;}
+	.st11{opacity:0;fill:#FFFFFF;}
 </style>
 <rect x="-0.2" class="st0" width="611.5" height="1296"/>
 <g class="st1">
@@ -7225,7 +7226,7 @@
 </g>
 <g id="Layer_2">
 	<rect id="dali-link" x="63.5" y="184" class="st10" width="105" height="14"/>
-	<rect id="portfolio-link" x="63.5" y="29.7" class="st8" width="77.6" height="20.9"/>
+	<rect id="portfolio-link" x="63.5" y="29.7" class="st11" width="77.6" height="20.9"/>
 	<rect id="email-link" x="63.5" y="111.8" class="st10" width="112.7" height="14"/>
 	<rect id="skating-link" x="61.5" y="637" class="st10" width="140.3" height="13"/>
 	<rect id="frameshift-link" x="342.2" y="876" class="st10" width="57.9" height="16"/>
