@@ -27,7 +27,7 @@
       $("#siggraph-link").click(function() {
         window.open("http://s2015.siggraph.org/", "_blank");
       });
-      $("#resume-link").click(function() {
+      $("#portfolio-link").click(function() {
         window.open("/img/runi_goswami_portfolio.pdf", "_blank");
       });
       snap.select('svg').attr({
