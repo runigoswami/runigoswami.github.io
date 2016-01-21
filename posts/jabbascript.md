@@ -17,4 +17,4 @@ Inspector DOM and her Pangolin stylist go together like HTML5 & CSS3. They're a 
 ![Inspector DOM HTML 5](/img/inspectorDOM.png "Inspector Document Object Model DOM")
 ![Pangolin CSS](/img/pangolongtail.png "Pangolin CSS CSS3")
 ## CSS Pangolin
-![jabbascript jabba the script](/img/jabb.gif)
+![jabbascript jabba the script](/img/jabbascript.gif)
