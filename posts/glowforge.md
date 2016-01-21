@@ -4,7 +4,7 @@
 
 #####Project Overview
 
-The [DALI Lab](http://dali.dartmouth.edu "DALI Home")
+[Glowforge](https://glowforge.com/ "Glowforge home")
 * What do you make?
 
 #####Design Challenge: Careers Page Redesign
