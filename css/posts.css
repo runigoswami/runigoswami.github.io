@@ -219,6 +219,9 @@
           #glowforge-cover .baselayer {
             background-image: url('/img/glowforge_landing.jpg');
           }
+          #pangolin-cover .baselayer {
+            background-image: url('/img/dynamicduoatombg.png');
+          }
           img {
             width: 50vw;
             display: block;

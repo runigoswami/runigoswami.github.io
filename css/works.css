@@ -271,6 +271,9 @@ main {
 #thumb_frameshift {
   background-image: url('/img/thumbs/thumb_1_frameshift.jpg');
 }
+#thumb_pangolin {
+  background-image: url('/img/jabb.gif');
+}
 #thumb_berry {
   background-image: url('/img/thumbs/thumb_berry.jpg');
 }
