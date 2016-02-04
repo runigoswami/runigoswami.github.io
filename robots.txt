@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /activate.html
+Disallow: /img/
+Disallow: /css/
+Disallow: /cgi/
+Disallow: /scripts/
+Disallow: /admin/
+Sitemap: https://runigoswami.com/sitemap.xml
